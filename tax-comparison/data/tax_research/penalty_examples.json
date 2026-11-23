@@ -1,0 +1,572 @@
+[
+  {
+    "id": "legacy_fta_clean",
+    "input": {
+      "penalty_code": "6651(a)(1)",
+      "return_form": "1040",
+      "tax_year": 2024,
+      "original_due_date": "2025-04-15",
+      "received_date": "2025-08-20",
+      "is_original_return": true,
+      "aep_considered": false,
+      "aep_transcript_verified": true,
+      "history": [
+        {
+          "period": "2021",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2022",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2023",
+          "filing": "timely",
+          "penalty": "none"
+        }
+      ],
+      "related_accounts_reviewed": true,
+      "currently_required_returns_filed_or_extended": true,
+      "paid_or_arranged_to_pay": true,
+      "tax_fully_paid": false,
+      "irs_error": false,
+      "penalty_factually_valid": true
+    },
+    "expected": {
+      "schema_version": "1.0",
+      "research_as_of": "2026-11-22",
+      "penalty_code": "6651(a)(1)",
+      "routes": {
+        "correction": {
+          "status": "not_applicable",
+          "reasons": [
+            "No assessment error is asserted in the supplied facts"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_FTA_IRM"
+          ]
+        },
+        "aep": {
+          "status": "not_applicable",
+          "reasons": [
+            "The period precedes the AEP transition"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_AEP_FACT",
+            "PEN_AEP_PUBLIC",
+            "PEN_AEP_UPDATE"
+          ]
+        },
+        "fta": {
+          "status": "eligible",
+          "reasons": [
+            "Implemented FTA screening criteria are met; IRS confirmation remains necessary"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_AEP_FACT",
+            "PEN_FTA_COMPLIANCE",
+            "PEN_FTA_IRM"
+          ]
+        },
+        "reasonable_cause": {
+          "status": "review_required",
+          "reasons": [
+            "Evaluate dates, inability to comply, care exercised, corrective steps, and evidence together; an event label alone proves no exception"
+          ],
+          "missing_evidence": [
+            "rc.causal_link",
+            "rc.ordinary_care",
+            "rc.prompt_correction",
+            "rc.reasons",
+            "rc.supporting_records",
+            "rc.willful_neglect"
+          ],
+          "citations": [
+            "PEN_6651_STAT",
+            "PEN_RC_PUBLIC",
+            "PEN_RC_REG"
+          ]
+        },
+        "estimated_tax_waiver": {
+          "status": "not_applicable",
+          "reasons": [
+            "This route is specific to individual estimated-tax additions"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_6654_IRM",
+            "PEN_6654_STAT"
+          ]
+        }
+      },
+      "preferred_route": "fta",
+      "warnings": [
+        "Educational screening only; eligibility is not an IRS decision.",
+        "Separate notice, appeal, refund-claim, payment, and court deadlines require independent review.",
+        "This model does not compute tax, penalties, interest, or statutory filing deadlines."
+      ]
+    }
+  },
+  {
+    "id": "transition_aep",
+    "input": {
+      "penalty_code": "6651(a)(1)",
+      "return_form": "1040",
+      "tax_year": 2025,
+      "original_due_date": "2026-04-15",
+      "received_date": "2026-08-20",
+      "is_original_return": true,
+      "aep_considered": true,
+      "aep_transcript_verified": true,
+      "history": [
+        {
+          "period": "2022",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2023",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2024",
+          "filing": "timely",
+          "penalty": "none"
+        }
+      ],
+      "related_accounts_reviewed": true,
+      "currently_required_returns_filed_or_extended": true,
+      "paid_or_arranged_to_pay": true,
+      "tax_fully_paid": false,
+      "irs_error": false,
+      "penalty_factually_valid": true
+    },
+    "expected": {
+      "schema_version": "1.0",
+      "research_as_of": "2026-11-22",
+      "penalty_code": "6651(a)(1)",
+      "routes": {
+        "correction": {
+          "status": "not_applicable",
+          "reasons": [
+            "No assessment error is asserted in the supplied facts"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_FTA_IRM"
+          ]
+        },
+        "aep": {
+          "status": "eligible",
+          "reasons": [
+            "Implemented AEP screening criteria are met for original-return processing; this is not an IRS grant"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_AEP_FACT",
+            "PEN_AEP_PUBLIC",
+            "PEN_AEP_UPDATE"
+          ]
+        },
+        "fta": {
+          "status": "not_applicable",
+          "reasons": [
+            "AEP was already considered; assess correction or reasonable cause rather than substituting FTA"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_AEP_FACT",
+            "PEN_FTA_COMPLIANCE",
+            "PEN_FTA_IRM"
+          ]
+        },
+        "reasonable_cause": {
+          "status": "review_required",
+          "reasons": [
+            "Evaluate dates, inability to comply, care exercised, corrective steps, and evidence together; an event label alone proves no exception"
+          ],
+          "missing_evidence": [
+            "rc.causal_link",
+            "rc.ordinary_care",
+            "rc.prompt_correction",
+            "rc.reasons",
+            "rc.supporting_records",
+            "rc.willful_neglect"
+          ],
+          "citations": [
+            "PEN_6651_STAT",
+            "PEN_RC_PUBLIC",
+            "PEN_RC_REG"
+          ]
+        },
+        "estimated_tax_waiver": {
+          "status": "not_applicable",
+          "reasons": [
+            "This route is specific to individual estimated-tax additions"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_6654_IRM",
+            "PEN_6654_STAT"
+          ]
+        }
+      },
+      "preferred_route": "aep",
+      "warnings": [
+        "Educational screening only; eligibility is not an IRS decision.",
+        "Separate notice, appeal, refund-claim, payment, and court deadlines require independent review.",
+        "This model does not compute tax, penalties, interest, or statutory filing deadlines."
+      ]
+    }
+  },
+  {
+    "id": "quarterly_aep",
+    "input": {
+      "penalty_code": "6656",
+      "return_form": "941",
+      "tax_year": 2026,
+      "original_due_date": "2026-07-31",
+      "received_date": "2026-08-17",
+      "is_original_return": true,
+      "aep_considered": true,
+      "aep_transcript_verified": true,
+      "history": [
+        {
+          "period": "2023-Q2",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2023-Q3",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2023-Q4",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2024-Q1",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2024-Q2",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2024-Q3",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2024-Q4",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2025-Q1",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2025-Q2",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2025-Q3",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2025-Q4",
+          "filing": "timely",
+          "penalty": "none"
+        },
+        {
+          "period": "2026-Q1",
+          "filing": "timely",
+          "penalty": "none"
+        }
+      ],
+      "related_accounts_reviewed": true,
+      "currently_required_returns_filed_or_extended": true,
+      "paid_or_arranged_to_pay": true,
+      "tax_fully_paid": false,
+      "irs_error": false,
+      "penalty_factually_valid": true,
+      "quarter": 2,
+      "deposit_waivers": 0,
+      "electronic_deposit_avoidance": "none"
+    },
+    "expected": {
+      "schema_version": "1.0",
+      "research_as_of": "2026-11-22",
+      "penalty_code": "6656",
+      "routes": {
+        "correction": {
+          "status": "not_applicable",
+          "reasons": [
+            "No assessment error is asserted in the supplied facts"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_FTA_IRM"
+          ]
+        },
+        "aep": {
+          "status": "eligible",
+          "reasons": [
+            "Implemented AEP screening criteria are met for original-return processing; this is not an IRS grant"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_AEP_FACT",
+            "PEN_AEP_PUBLIC",
+            "PEN_AEP_UPDATE"
+          ]
+        },
+        "fta": {
+          "status": "not_applicable",
+          "reasons": [
+            "AEP was already considered; assess correction or reasonable cause rather than substituting FTA"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_AEP_FACT",
+            "PEN_FTA_COMPLIANCE",
+            "PEN_FTA_IRM"
+          ]
+        },
+        "reasonable_cause": {
+          "status": "review_required",
+          "reasons": [
+            "Evaluate dates, inability to comply, care exercised, corrective steps, and evidence together; an event label alone proves no exception"
+          ],
+          "missing_evidence": [
+            "rc.causal_link",
+            "rc.ordinary_care",
+            "rc.prompt_correction",
+            "rc.reasons",
+            "rc.supporting_records",
+            "rc.willful_neglect"
+          ],
+          "citations": [
+            "PEN_6656_STAT",
+            "PEN_RC_PUBLIC"
+          ]
+        },
+        "estimated_tax_waiver": {
+          "status": "not_applicable",
+          "reasons": [
+            "This route is specific to individual estimated-tax additions"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_6654_IRM",
+            "PEN_6654_STAT"
+          ]
+        }
+      },
+      "preferred_route": "aep",
+      "warnings": [
+        "Educational screening only; eligibility is not an IRS decision.",
+        "Separate notice, appeal, refund-claim, payment, and court deadlines require independent review.",
+        "This model does not compute tax, penalties, interest, or statutory filing deadlines."
+      ]
+    }
+  },
+  {
+    "id": "missing_record",
+    "input": {
+      "penalty_code": "6651(a)(1)"
+    },
+    "expected": {
+      "schema_version": "1.0",
+      "research_as_of": "2026-11-22",
+      "penalty_code": "6651(a)(1)",
+      "routes": {
+        "correction": {
+          "status": "review_required",
+          "reasons": [
+            "Verify the assessment, payments, filing proof, and notice before seeking discretionary relief"
+          ],
+          "missing_evidence": [
+            "penalty_factually_valid"
+          ],
+          "citations": [
+            "PEN_FTA_IRM"
+          ]
+        },
+        "aep": {
+          "status": "review_required",
+          "reasons": [
+            "Verify original-return processing, complete history, and account indicators"
+          ],
+          "missing_evidence": [
+            "aep_considered",
+            "aep_transcript_verified",
+            "history",
+            "is_original_return",
+            "original_due_date",
+            "received_date",
+            "return_form",
+            "tax_year"
+          ],
+          "citations": [
+            "PEN_AEP_FACT",
+            "PEN_AEP_PUBLIC",
+            "PEN_AEP_UPDATE"
+          ]
+        },
+        "fta": {
+          "status": "review_required",
+          "reasons": [
+            "Complete the evidence and account review before deciding FTA eligibility"
+          ],
+          "missing_evidence": [
+            "currently_required_returns_filed_or_extended",
+            "history",
+            "original_due_date",
+            "paid_or_arranged_to_pay",
+            "return_form",
+            "tax_year"
+          ],
+          "citations": [
+            "PEN_AEP_FACT",
+            "PEN_FTA_COMPLIANCE",
+            "PEN_FTA_IRM"
+          ]
+        },
+        "reasonable_cause": {
+          "status": "review_required",
+          "reasons": [
+            "Evaluate dates, inability to comply, care exercised, corrective steps, and evidence together; an event label alone proves no exception"
+          ],
+          "missing_evidence": [
+            "rc.causal_link",
+            "rc.ordinary_care",
+            "rc.prompt_correction",
+            "rc.reasons",
+            "rc.supporting_records",
+            "rc.willful_neglect"
+          ],
+          "citations": [
+            "PEN_6651_STAT",
+            "PEN_RC_PUBLIC",
+            "PEN_RC_REG"
+          ]
+        },
+        "estimated_tax_waiver": {
+          "status": "not_applicable",
+          "reasons": [
+            "This route is specific to individual estimated-tax additions"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_6654_IRM",
+            "PEN_6654_STAT"
+          ]
+        }
+      },
+      "preferred_route": "correction",
+      "warnings": [
+        "Educational screening only; eligibility is not an IRS decision.",
+        "Separate notice, appeal, refund-claim, payment, and court deadlines require independent review.",
+        "This model does not compute tax, penalties, interest, or statutory filing deadlines."
+      ]
+    }
+  },
+  {
+    "id": "statutory_estimated_waiver",
+    "input": {
+      "penalty_code": "6654",
+      "estimated": {
+        "retired_at_62_or_disabled": true,
+        "event_in_current_or_prior_year": true,
+        "reasonable_cause": true,
+        "willful_neglect": false
+      }
+    },
+    "expected": {
+      "schema_version": "1.0",
+      "research_as_of": "2026-11-22",
+      "penalty_code": "6654",
+      "routes": {
+        "correction": {
+          "status": "review_required",
+          "reasons": [
+            "Verify the assessment, payments, filing proof, and notice before seeking discretionary relief"
+          ],
+          "missing_evidence": [
+            "penalty_factually_valid"
+          ],
+          "citations": [
+            "PEN_FTA_IRM"
+          ]
+        },
+        "aep": {
+          "status": "not_applicable",
+          "reasons": [
+            "This exact penalty provision is outside AEP scope"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_AEP_FACT",
+            "PEN_AEP_PUBLIC",
+            "PEN_AEP_UPDATE"
+          ]
+        },
+        "fta": {
+          "status": "not_applicable",
+          "reasons": [
+            "This exact penalty provision is outside FTA scope"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_AEP_FACT",
+            "PEN_FTA_COMPLIANCE",
+            "PEN_FTA_IRM"
+          ]
+        },
+        "reasonable_cause": {
+          "status": "not_applicable",
+          "reasons": [
+            "There is no general reasonable-cause waiver; examine section 6654(e)(3) instead"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_6654_IRM",
+            "PEN_6654_STAT"
+          ]
+        },
+        "estimated_tax_waiver": {
+          "status": "review_required",
+          "reasons": [
+            "A potentially applicable statutory waiver is identified; submit a supported request for the statutory determination"
+          ],
+          "missing_evidence": [],
+          "citations": [
+            "PEN_6654_IRM",
+            "PEN_6654_STAT"
+          ]
+        }
+      },
+      "preferred_route": "correction",
+      "warnings": [
+        "Educational screening only; eligibility is not an IRS decision.",
+        "Separate notice, appeal, refund-claim, payment, and court deadlines require independent review.",
+        "This model does not compute tax, penalties, interest, or statutory filing deadlines."
+      ]
+    }
+  }
+]

@@ -1,0 +1,250 @@
+{
+  "schema_version": "1.0",
+  "research_as_of": "2026-11-22",
+  "model": "Editorial research order with separate legal-role and substantial-authority screens. No additive score, legal confidence percentage, or automatic legal conclusion.",
+  "categories": [
+    {
+      "kind": "statutory",
+      "label": "Internal Revenue Code",
+      "research_priority": 10,
+      "legal_role": "governing_statutory_text",
+      "substantial_authority_use": "enumerated_subject_to_weight_analysis",
+      "source_ids": [
+        "AUTH-7805",
+        "AUTH-6662-4"
+      ],
+      "branch": "Legislative",
+      "precedential_scope": "Governing statutory text; interpreted by courts",
+      "required_checks": "Scope, amendment history, effective date and exceptions"
+    },
+    {
+      "kind": "supreme_court",
+      "label": "Highest federal court interpretation",
+      "research_priority": 10,
+      "legal_role": "judicial_interpretation",
+      "substantial_authority_use": "enumerated_subject_to_weight_analysis",
+      "source_ids": [
+        "AUTH-706",
+        "AUTH-SCOTUS-2024",
+        "AUTH-6662-4"
+      ],
+      "branch": "Judicial",
+      "precedential_scope": "National judicial precedent on the issue decided",
+      "required_checks": "Holding, applicable law, facts and subsequent developments"
+    },
+    {
+      "kind": "circuit_court",
+      "label": "Federal appellate interpretation",
+      "research_priority": 20,
+      "legal_role": "judicial_interpretation",
+      "substantial_authority_use": "enumerated_subject_to_weight_analysis",
+      "source_ids": [
+        "AUTH-7482",
+        "AUTH-6662-4"
+      ],
+      "branch": "Judicial",
+      "precedential_scope": "Potentially controlling in the relevant review route",
+      "required_checks": "Circuit, published status, review venue and later history"
+    },
+    {
+      "kind": "final_regulation",
+      "label": "Final Treasury regulation",
+      "research_priority": 20,
+      "legal_role": "binding_regulatory_text_subject_to_validity_review",
+      "substantial_authority_use": "enumerated_subject_to_weight_analysis",
+      "source_ids": [
+        "AUTH-7805",
+        "AUTH-REG-PROCESS",
+        "AUTH-6662-4"
+      ],
+      "branch": "Regulatory",
+      "precedential_scope": "Effective regulation, subject to valid authority and judicial review",
+      "required_checks": "Applicability, validity, amendments and statutory consistency"
+    },
+    {
+      "kind": "temporary_regulation",
+      "label": "Temporary Treasury regulation",
+      "research_priority": 25,
+      "legal_role": "regulatory_text_subject_to_expiration_and_validity_review",
+      "substantial_authority_use": "enumerated_subject_to_weight_analysis",
+      "source_ids": [
+        "AUTH-7805",
+        "AUTH-REG-PROCESS",
+        "AUTH-6662-4"
+      ],
+      "branch": "Regulatory",
+      "precedential_scope": "Effective temporary rule within its authorized period",
+      "required_checks": "Issuance, expiry, replacement and applicability"
+    },
+    {
+      "kind": "tax_court_regular",
+      "label": "Tax Court division opinion",
+      "research_priority": 30,
+      "legal_role": "trial_court_interpretation",
+      "substantial_authority_use": "enumerated_subject_to_weight_analysis",
+      "source_ids": [
+        "AUTH-TAXCOURT-OPINIONS",
+        "AUTH-7482",
+        "AUTH-6662-4"
+      ],
+      "branch": "Judicial",
+      "precedential_scope": "Citable judicial authority; contextual precedent analysis",
+      "required_checks": "Issue, holding, appellate route and later history"
+    },
+    {
+      "kind": "tax_court_memorandum",
+      "label": "Tax Court memorandum opinion",
+      "research_priority": 35,
+      "legal_role": "trial_court_interpretation",
+      "substantial_authority_use": "enumerated_subject_to_weight_analysis",
+      "source_ids": [
+        "AUTH-TAXCOURT-OPINIONS",
+        "AUTH-6662-4"
+      ],
+      "branch": "Judicial",
+      "precedential_scope": "Citable judicial authority; often factual application",
+      "required_checks": "Material factual fit and later treatment"
+    },
+    {
+      "kind": "revenue_ruling",
+      "label": "Published revenue ruling",
+      "research_priority": 40,
+      "legal_role": "published_agency_interpretation",
+      "substantial_authority_use": "enumerated_subject_to_weight_analysis",
+      "source_ids": [
+        "AUTH-IRS-PRIMER",
+        "AUTH-6662-4"
+      ],
+      "branch": "Published administrative",
+      "precedential_scope": "Published administrative precedent, not a regulation",
+      "required_checks": "Factual fit, subsequent rulings and judicial developments"
+    },
+    {
+      "kind": "revenue_procedure",
+      "label": "Published revenue procedure",
+      "research_priority": 40,
+      "legal_role": "published_agency_procedure",
+      "substantial_authority_use": "enumerated_subject_to_weight_analysis",
+      "source_ids": [
+        "AUTH-IRS-PRIMER",
+        "AUTH-6662-4"
+      ],
+      "branch": "Published administrative",
+      "precedential_scope": "Published procedure subject to its conditions",
+      "required_checks": "Eligibility, required elections, dates and supersession"
+    },
+    {
+      "kind": "proposed_regulation",
+      "label": "Proposed Treasury regulation",
+      "research_priority": 45,
+      "legal_role": "proposal_not_final_law",
+      "substantial_authority_use": "enumerated_subject_to_weight_analysis",
+      "source_ids": [
+        "AUTH-REG-PROCESS",
+        "AUTH-6662-4"
+      ],
+      "branch": "Regulatory",
+      "precedential_scope": "Proposal; do not present as final law",
+      "required_checks": "Any express reliance provision and later finalization"
+    },
+    {
+      "kind": "plr",
+      "label": "Private letter ruling",
+      "research_priority": 50,
+      "legal_role": "nonprecedential_taxpayer_specific",
+      "substantial_authority_use": "issuance_date_required",
+      "source_ids": [
+        "AUTH-6110",
+        "AUTH-6662-4"
+      ],
+      "branch": "Taxpayer-specific",
+      "precedential_scope": "Generally nonprecedential for other taxpayers",
+      "required_checks": "Recipient, facts, revocation and applicable penalty-use rule"
+    },
+    {
+      "kind": "tam",
+      "label": "Technical advice memorandum",
+      "research_priority": 50,
+      "legal_role": "nonprecedential_taxpayer_specific",
+      "substantial_authority_use": "issuance_date_required",
+      "source_ids": [
+        "AUTH-6110",
+        "AUTH-6662-4"
+      ],
+      "branch": "Taxpayer-specific",
+      "precedential_scope": "Generally nonprecedential for other taxpayers",
+      "required_checks": "Subject taxpayer, issue, later developments and permitted uses"
+    },
+    {
+      "kind": "cca",
+      "label": "Chief counsel advice",
+      "research_priority": 60,
+      "legal_role": "nonprecedential_internal_legal_advice",
+      "substantial_authority_use": "not_expressly_enumerated_manual_review",
+      "source_ids": [
+        "AUTH-6110",
+        "AUTH-6662-4"
+      ],
+      "branch": "Taxpayer-specific",
+      "precedential_scope": "Nonprecedential written advice under the general rule",
+      "required_checks": "Underlying primary authorities; no automatic substantial-authority inclusion"
+    },
+    {
+      "kind": "tax_court_summary",
+      "label": "Tax Court small-case summary opinion",
+      "research_priority": 70,
+      "legal_role": "nonprecedential_small_case",
+      "substantial_authority_use": "nonprecedential_separate_penalty_use_review",
+      "source_ids": [
+        "AUTH-7463",
+        "AUTH-TAXCOURT-OPINIONS"
+      ],
+      "branch": "Judicial",
+      "precedential_scope": "No precedent for another case",
+      "required_checks": "Confirm small tax case status; no appeal under section 7463"
+    },
+    {
+      "kind": "irm",
+      "label": "Internal Revenue Manual",
+      "research_priority": 80,
+      "legal_role": "internal_operational_instruction",
+      "substantial_authority_use": "not_enumerated",
+      "source_ids": [
+        "AUTH-IRM-PROCESS",
+        "AUTH-IRM-JUDICIAL",
+        "AUTH-6662-4"
+      ],
+      "branch": "Internal administration",
+      "precedential_scope": "Staff process guidance; not substantive law",
+      "required_checks": "Exact subsection, revision, interim guidance and statutory basis"
+    },
+    {
+      "kind": "publication",
+      "label": "General agency publication or webpage",
+      "research_priority": 90,
+      "legal_role": "public_explanation_not_precedent",
+      "substantial_authority_use": "not_enumerated",
+      "source_ids": [
+        "AUTH-FAQ",
+        "AUTH-6662-4"
+      ],
+      "branch": "Information",
+      "precedential_scope": "General explanation; not binding legal authority",
+      "required_checks": "Find and cite the underlying authority and relevant date"
+    },
+    {
+      "kind": "faq",
+      "label": "Agency frequently asked question",
+      "research_priority": 85,
+      "legal_role": "informational_nonprecedential_faq",
+      "substantial_authority_use": "fact_sheet_news_release_link_requires_verification",
+      "source_ids": [
+        "AUTH-FAQ",
+        "AUTH-6662-4"
+      ],
+      "branch": "Informational",
+      "precedential_scope": "Nonprecedential; qualifying fact-sheet FAQs have a distinct penalty-authority use",
+      "required_checks": "Verify the Fact Sheet, linked news release, effective facts, version, and reasonable reliance"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schema_version": "1.0",
+  "checked_on": "2026-11-22",
+  "purpose": "Educational decision boundaries, not an exhaustive legal adjudicator",
+  "rows": [
+    {
+      "id": "assessment_correction",
+      "scope": "Any identified penalty",
+      "evidence": "Return receipt, posting, payment, extensions and assessment validity",
+      "decision_boundary": "Correct invalid assessment first; do not consume FTA",
+      "citations": [
+        "PEN_FTA_IRM"
+      ],
+      "pinpoint": "20.1.1.3.3.2.1(12)"
+    },
+    {
+      "id": "fta_scope",
+      "scope": "6651(a)(1)-(3), 6656, 6698(a)(1), 6699(a)(1)",
+      "evidence": "Exact statutory subsection and return type",
+      "decision_boundary": "Listed provisions only; incomplete entity returns excluded",
+      "citations": [
+        "PEN_FTA_IRM"
+      ],
+      "pinpoint": "20.1.1.3.3.2.1(1), (6)-(8)"
+    },
+    {
+      "id": "fta_history",
+      "scope": "Legacy FTA",
+      "evidence": "Three annual periods or twelve quarters, relevant related accounts and penalty reversal reasons",
+      "decision_boundary": "Prior FTA/AEP, tolerance and unresolved penalties block the modeled route; estimated-only and qualifying reversals differ",
+      "citations": [
+        "PEN_FTA_IRM"
+      ],
+      "pinpoint": "20.1.1.3.3.2.1(4)-(6), (11)"
+    },
+    {
+      "id": "fta_current_compliance",
+      "scope": "Legacy FTA",
+      "evidence": "Currently required returns or valid extensions; tax paid or payment arranged",
+      "decision_boundary": "Full payment is not necessarily required; missing facts require review",
+      "citations": [
+        "PEN_FTA_COMPLIANCE"
+      ],
+      "pinpoint": "First-Time Penalty Abatement"
+    },
+    {
+      "id": "fta_transition",
+      "scope": "Original returns due from 2027-01-01",
+      "evidence": "Original due date, period and actual AEP consideration",
+      "decision_boundary": "FTA is replaced by AEP for covered original due dates; transition cases need processing evidence",
+      "citations": [
+        "PEN_AEP_FACT"
+      ],
+      "pinpoint": "First Time Abate transition"
+    },
+    {
+      "id": "aep_original_window",
+      "scope": "Eligible original returns",
+      "evidence": "Original due date, receipt date, eligible form and tax period",
+      "decision_boundary": "Return must be received within three years of original due date; extension date is not substituted",
+      "citations": [
+        "PEN_AEP_UPDATE"
+      ],
+      "pinpoint": "20.1.1.3.3.2.5(1)-(8)"
+    },
+    {
+      "id": "aep_history",
+      "scope": "AEP",
+      "evidence": "Compliance indicators for three prior years or twelve quarters; related accounts",
+      "decision_boundary": "Require transcript verification; never infer compliance from missing records",
+      "citations": [
+        "PEN_AEP_UPDATE"
+      ],
+      "pinpoint": "20.1.1.3.3.2.5(8)-(13)"
+    },
+    {
+      "id": "aep_manual",
+      "scope": "Form CT-1 or specific preventing administrative error",
+      "evidence": "Original-return qualification, error evidence, and later history for late-filed returns",
+      "decision_boundary": "Manual consideration; subsequent three-year relief history must also be checked",
+      "citations": [
+        "PEN_AEP_UPDATE"
+      ],
+      "pinpoint": "20.1.1.3.3.2.6(1)-(3)"
+    },
+    {
+      "id": "deposit_exclusions",
+      "scope": "FTA/AEP employment-tax review",
+      "evidence": "Counted waiver codes; electronic-deposit avoidance component",
+      "decision_boundary": "Four or more relevant waivers block; partial FTA avoidance assessment requires allocation",
+      "citations": [
+        "PEN_FTA_IRM"
+      ],
+      "pinpoint": "20.1.1.3.3.2.1(6)"
+    },
+    {
+      "id": "filing_payment_rc",
+      "scope": "6651(a)(1)-(3)",
+      "evidence": "Ordinary care, actual inability, causal dates, correction and no willful neglect",
+      "decision_boundary": "Individualized statutory exception; no automatic grant",
+      "citations": [
+        "PEN_RC_REG"
+      ],
+      "pinpoint": "301.6651-1(c)"
+    },
+    {
+      "id": "deposit_rc",
+      "scope": "6656",
+      "evidence": "Circumstances, ordinary care, causal link and no willful neglect",
+      "decision_boundary": "Penalty-specific factual review",
+      "citations": [
+        "PEN_6656_STAT"
+      ],
+      "pinpoint": "6656(a)"
+    },
+    {
+      "id": "entity_rc",
+      "scope": "6698 and 6699",
+      "evidence": "Reasonable-cause facts for late or incomplete entity return",
+      "decision_boundary": "A separate statutory route remains possible when FTA is outside scope",
+      "citations": [
+        "PEN_6698_STAT",
+        "PEN_6699_STAT"
+      ],
+      "pinpoint": "26 U.S.C. 6698(a), 6699(a)"
+    },
+    {
+      "id": "accuracy_rc",
+      "scope": "6662 with 6664(c)",
+      "evidence": "Exact component, reasonable cause, good faith, and reliability of any advice",
+      "decision_boundary": "Ordinary route subject to express statutory exclusions and special valuation conditions",
+      "citations": [
+        "PEN_6664_STAT"
+      ],
+      "pinpoint": "6664(c)(1)-(3)"
+    },
+    {
+      "id": "estimated_waiver",
+      "scope": "6654(e)(3)",
+      "evidence": "Unusual circumstances and inequity, or qualifying recent retirement/disability with RC and no willful neglect",
+      "decision_boundary": "No general reasonable-cause route; statutory determination required",
+      "citations": [
+        "PEN_6654_STAT"
+      ],
+      "pinpoint": "6654(e)(3)(A)-(B)"
+    },
+    {
+      "id": "information_rc",
+      "scope": "6721/6722 with 6724",
+      "evidence": "Mitigating factors or uncontrollable impediment plus responsible conduct",
+      "decision_boundary": "Refer to the separate information-reporting standard",
+      "citations": [
+        "PEN_6724_REG"
+      ],
+      "pinpoint": "301.6724-1(a)-(d)"
+    },
+    {
+      "id": "request_procedure",
+      "scope": "Penalty claim or abatement request",
+      "evidence": "Notice, proper form, separate periods, evidence and submission record",
+      "decision_boundary": "Follow current instructions; no universal form or deadline inferred",
+      "citations": [
+        "PEN_843_INSTRUCTIONS"
+      ],
+      "pinpoint": "Purpose of Form; Separate Form Required"
+    },
+    {
+      "id": "interest_written_advice",
+      "scope": "6404(e)/(f)",
+      "evidence": "Specific statutory conditions and documentary evidence",
+      "decision_boundary": "Separate review outside executable determination",
+      "citations": [
+        "PEN_6404_STAT"
+      ],
+      "pinpoint": "6404(e)-(f)"
+    }
+  ]
+}

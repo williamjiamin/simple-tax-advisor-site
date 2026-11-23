@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12in" height="8in" viewBox="0 0 1200 800" role="img">
+<title>Penalty relief: choose the route</title>
+<desc>Educational triage of one exact penalty, one return, and one period. Unknown evidence stays unresolved.</desc>
+<rect width="1200" height="800" fill="white"/>
+<text x="55" y="55" font-family="sans-serif" font-size="31" fill="#172c3e">Penalty relief: choose the route</text>
+<text x="55" y="91" font-family="sans-serif" font-size="18" fill="#21384a">Educational triage of one exact penalty, one return, and one period. Unknown evidence stays unresolved.</text>
+<rect x="340" y="123" width="520" height="78" rx="10" fill="#f1f5f7" stroke="#172c3e" stroke-width="2"/>
+<text x="358" y="152" font-family="sans-serif" font-size="20" fill="#172c3e">Verify the assessment and dates</text>
+<text x="358" y="178" font-family="sans-serif" font-size="17" fill="#21384a">Incorrect assessment? Correct the error before using relief.</text>
+<line x1="600" y1="201" x2="600" y2="223" stroke="#8b9ba7" stroke-width="2"/>
+<line x1="225" y1="223" x2="975" y2="223" stroke="#8b9ba7" stroke-width="2"/>
+<line x1="225" y1="223" x2="225" y2="249" stroke="#8b9ba7" stroke-width="2"/>
+<line x1="600" y1="223" x2="600" y2="249" stroke="#8b9ba7" stroke-width="2"/>
+<line x1="975" y1="223" x2="975" y2="249" stroke="#8b9ba7" stroke-width="2"/>
+<rect x="55" y="249" width="340" height="124" rx="10" fill="#f1f5f7" stroke="#137b76" stroke-width="2"/>
+<text x="73" y="278" font-family="sans-serif" font-size="20" fill="#137b76">Legacy or transitional FTA</text>
+<text x="73" y="304" font-family="sans-serif" font-size="17" fill="#21384a">Check exact penalty and return scope</text>
+<text x="73" y="327" font-family="sans-serif" font-size="17" fill="#21384a">Check prior history and compliance</text>
+<text x="73" y="350" font-family="sans-serif" font-size="17" fill="#21384a">Original due date before Jan. 1, 2027</text>
+<rect x="430" y="249" width="340" height="124" rx="10" fill="#f1f5f7" stroke="#172c3e" stroke-width="2"/>
+<text x="448" y="278" font-family="sans-serif" font-size="20" fill="#172c3e">AEP original-return review</text>
+<text x="448" y="304" font-family="sans-serif" font-size="16" fill="#21384a">Annual 2025+ / quarterly 2026+</text>
+<text x="448" y="327" font-family="sans-serif" font-size="16" fill="#21384a">Within 3 years of original due date</text>
+<text x="448" y="350" font-family="sans-serif" font-size="16" fill="#21384a">Verify processing and account evidence</text>
+<rect x="805" y="249" width="340" height="124" rx="10" fill="#f1f5f7" stroke="#a66b1e" stroke-width="2"/>
+<text x="823" y="278" font-family="sans-serif" font-size="20" fill="#a66b1e">Penalty-specific legal relief</text>
+<text x="823" y="304" font-family="sans-serif" font-size="16" fill="#21384a">Reasonable cause where authorized</text>
+<text x="823" y="327" font-family="sans-serif" font-size="16" fill="#21384a">Estimated-tax statutory waivers</text>
+<text x="823" y="350" font-family="sans-serif" font-size="16" fill="#21384a">Other exceptions need separate review</text>
+<line x1="225" y1="373" x2="225" y2="410" stroke="#8b9ba7" stroke-width="2"/>
+<line x1="600" y1="373" x2="600" y2="410" stroke="#8b9ba7" stroke-width="2"/>
+<line x1="975" y1="373" x2="975" y2="410" stroke="#8b9ba7" stroke-width="2"/>
+<rect x="55" y="410" width="340" height="124" rx="10" fill="#f1f5f7" stroke="#137b76" stroke-width="2"/>
+<text x="73" y="439" font-family="sans-serif" font-size="20" fill="#137b76">What the history shows</text>
+<text x="73" y="465" font-family="sans-serif" font-size="17" fill="#21384a">Three years / twelve quarters</text>
+<text x="73" y="488" font-family="sans-serif" font-size="17" fill="#21384a">Distinguish reversal reasons</text>
+<text x="73" y="511" font-family="sans-serif" font-size="17" fill="#21384a">Known disqualifier or evidence gap?</text>
+<rect x="430" y="410" width="340" height="124" rx="10" fill="#f1f5f7" stroke="#172c3e" stroke-width="2"/>
+<text x="448" y="439" font-family="sans-serif" font-size="20" fill="#172c3e">Manual AEP has extra checks</text>
+<text x="448" y="465" font-family="sans-serif" font-size="17" fill="#21384a">Certain return types or agency error</text>
+<text x="448" y="488" font-family="sans-serif" font-size="17" fill="#21384a">Timely extension is not late filing</text>
+<text x="448" y="511" font-family="sans-serif" font-size="17" fill="#21384a">Later history matters for late filings</text>
+<rect x="805" y="410" width="340" height="124" rx="10" fill="#f1f5f7" stroke="#a66b1e" stroke-width="2"/>
+<text x="823" y="439" font-family="sans-serif" font-size="20" fill="#a66b1e">Build the factual record</text>
+<text x="823" y="465" font-family="sans-serif" font-size="17" fill="#21384a">Care, causation, dates and correction</text>
+<text x="823" y="488" font-family="sans-serif" font-size="17" fill="#21384a">Evidence tied to the exact failure</text>
+<text x="823" y="511" font-family="sans-serif" font-size="17" fill="#21384a">An event label never grants relief</text>
+<line x1="225" y1="534" x2="225" y2="562" stroke="#8b9ba7" stroke-width="2"/>
+<line x1="600" y1="534" x2="600" y2="562" stroke="#8b9ba7" stroke-width="2"/>
+<line x1="975" y1="534" x2="975" y2="562" stroke="#8b9ba7" stroke-width="2"/>
+<line x1="225" y1="562" x2="975" y2="562" stroke="#8b9ba7" stroke-width="2"/>
+<line x1="600" y1="562" x2="600" y2="589" stroke="#8b9ba7" stroke-width="2"/>
+<rect x="255" y="589" width="690" height="78" rx="10" fill="#f1f5f7" stroke="#172c3e" stroke-width="2"/>
+<text x="273" y="618" font-family="sans-serif" font-size="20" fill="#172c3e">Return a traceable screen</text>
+<text x="273" y="644" font-family="sans-serif" font-size="17" fill="#21384a">Eligible / not eligible / review required / not applicable; no agency decision.</text>
+<text x="55" y="717" font-family="sans-serif" font-size="17" fill="#21384a">Sources: IRM 20.1.1; June 17, 2026 procedural update; 26 CFR 301.6651-1(c).</text>
+<text x="55" y="749" font-family="sans-serif" font-size="16" fill="#21384a">Original illustration  |  LIPAI WANG  |  Recheck law and procedural deadlines before use.</text>
+</svg>

@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "order_id": "SURVEY-35-TAX-RESEARCH-CITATION",
+  "target_repository": "us-tax-blog",
+  "default_enabled": true,
+  "setting": "tax_research/enabled",
+  "kill_switch": "TAX_RESEARCH_DISABLED",
+  "deployment": "private_local_staging_only",
+  "source_of_truth": "data/tax_research/",
+  "python_entry": "scripts/tax_research/research_cli.py",
+  "web_adapter": "src/tax_research/adapter.mjs",
+  "known_documented_hook_points": [
+    "src/worker.js",
+    "public/app.js"
+  ],
+  "hook_status": "additive_adapter_ready; runtime hook files absent from supplied snapshot; no route wiring claimed",
+  "disabled_contract": "return original object and bytes before reading optional feature data",
+  "game_export": "derived reference cards only; no duplicated tax decision logic",
+  "game_runtime_requested": "4.7.1",
+  "game_runtime_available": "4.7.2",
+  "full_repository_build_verified": false
+}

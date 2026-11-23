@@ -1,0 +1,33 @@
+{
+  "penalty_code": "6651(a)(1)",
+  "return_form": "1040",
+  "tax_year": 2024,
+  "original_due_date": "2025-04-15",
+  "received_date": "2025-08-20",
+  "is_original_return": true,
+  "aep_considered": false,
+  "aep_transcript_verified": true,
+  "history": [
+    {
+      "period": "2021",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2022",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2023",
+      "filing": "timely",
+      "penalty": "none"
+    }
+  ],
+  "related_accounts_reviewed": true,
+  "currently_required_returns_filed_or_extended": true,
+  "paid_or_arranged_to_pay": true,
+  "tax_fully_paid": false,
+  "irs_error": false,
+  "penalty_factually_valid": true
+}

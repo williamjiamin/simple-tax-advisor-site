@@ -2,6 +2,12 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import { computeOicRcp, computePartnershipGate } from "../site/ea-procedure-math.mjs";
+import {
+  assessPenaltyRelief,
+  evaluateTaxAuthority,
+  filterVerifiedSources,
+  isTaxResearchEnabled,
+} from "../site/tax-research-verifier.mjs";
 
 const root = new URL("../", import.meta.url);
 const LEAK_RE = /\b(AGY|Fable|Codex|Minimax|GOAG|PR\s*#\d+|Shipyard|Guild)\b/i;
@@ -58,4 +64,98 @@ test("D32-B08/B09 26 SVG plates, workflow atlas, and interactive tax gates are v
   const oic = computeOicRcp(9800, 475, "lump_sum");
   assert.equal(oic.rcp, 15500);
   assert.equal(oic.initialPayment, 3100);
+});
+
+test("Tax Research Citation & 2026 AEP Penalty Relief verifier passes models, kill switches, and leak scan", () => {
+  assert.equal(isTaxResearchEnabled({}), true);
+  assert.equal(isTaxResearchEnabled({ queryString: "?tax_research=off" }), false);
+  assert.equal(isTaxResearchEnabled({ env: { TAX_RESEARCH_DISABLED: "1" } }), false);
+
+  const authModel = JSON.parse(fs.readFileSync(new URL("data/tax_research/authority_model.json", root), "utf8"));
+  const penMatrix = JSON.parse(fs.readFileSync(new URL("data/tax_research/penalty_matrix.json", root), "utf8"));
+  const sources = JSON.parse(fs.readFileSync(new URL("data/tax_research/sources.json", root), "utf8"));
+  const cards = JSON.parse(fs.readFileSync(new URL("data/tax_research/reference_cards.json", root), "utf8"));
+  const qBank = JSON.parse(fs.readFileSync(new URL("data/tax_research/questions.json", root), "utf8"));
+
+  assert.equal(authModel.categories.length, 17);
+  assert.equal(penMatrix.rows.length, 17);
+  assert.equal(sources.sources.length, 37);
+  assert.equal(cards.cards.length, 6);
+  assert.equal(qBank.questions.length, 80);
+
+  const plrPost1976 = evaluateTaxAuthority(
+    { kind: "plr", issuedOn: "1980-05-01", sameTaxpayer: false, appliesToPeriod: true, conflictingAuthority: false },
+    authModel.categories,
+  );
+  assert.equal(plrPost1976.substantialAuthorityUse, "enumerated_nonprecedential_material_subject_to_weight_analysis");
+  assert.equal(plrPost1976.probability, null);
+
+  const faqNews = evaluateTaxAuthority(
+    { kind: "faq", faqLinkedNewsRelease: true, appliesToPeriod: true, conflictingAuthority: false },
+    authModel.categories,
+  );
+  assert.equal(faqNews.substantialAuthorityUse, "qualifying_fact_sheet_faq_penalty_authority_review");
+
+  const aep2026 = assessPenaltyRelief({
+    penalty_code: "6656",
+    return_form: "941",
+    tax_year: 2026,
+    original_due_date: "2026-07-31",
+    received_date: "2026-08-17",
+    is_original_return: true,
+    aep_considered: true,
+    aep_transcript_verified: true,
+    history_clean: true,
+    related_accounts_reviewed: true,
+  });
+  assert.equal(aep2026.routes.aep.status, "eligible");
+  assert.equal(aep2026.preferredRoute, "aep");
+
+  const cutoff2027 = assessPenaltyRelief({
+    penalty_code: "6651(a)(1)",
+    return_form: "1040",
+    tax_year: 2026,
+    original_due_date: "2027-04-15",
+    received_date: "2027-07-10",
+    is_original_return: true,
+    aep_considered: true,
+    aep_transcript_verified: true,
+    history_clean: true,
+    related_accounts_reviewed: true,
+  });
+  assert.equal(cutoff2027.routes.fta.status, "not_applicable");
+  assert.equal(cutoff2027.routes.aep.status, "eligible");
+
+  const missingTranscript = assessPenaltyRelief({
+    penalty_code: "6651(a)(1)",
+    return_form: "1040",
+    tax_year: 2025,
+    original_due_date: "2026-04-15",
+    received_date: "2026-08-20",
+    is_original_return: true,
+    aep_considered: null,
+    aep_transcript_verified: false,
+    history_clean: null,
+    related_accounts_reviewed: false,
+  });
+  assert.equal(missingTranscript.routes.aep.status, "review_required");
+  assert.ok(missingTranscript.routes.aep.missingEvidence.includes("aep_transcript_verified"));
+
+  assert.ok(filterVerifiedSources(sources.sources, { query: "6662" }).length >= 1);
+
+  for (const rel of [
+    "site/tax-research-verifier.html",
+    "site/tax-research-verifier.mjs",
+    "site/tax-research-verifier-ui.js",
+    "site/index.html",
+    "site/ea-procedure-lab.html",
+    "site/figures/authority_tree.svg",
+    "site/figures/penalty_relief_tree.svg",
+  ]) {
+    const raw = fs.readFileSync(new URL(rel, root), "utf8");
+    assert.equal(LEAK_RE.test(raw), false, `Leak detected in ${rel}`);
+  }
+  const verifierHtml = fs.readFileSync(new URL("site/tax-research-verifier.html", root), "utf8");
+  assert.match(verifierHtml, /tax-research-verifier-ui\.js/);
+  assert.match(verifierHtml, /authority_tree\.svg/);
 });
