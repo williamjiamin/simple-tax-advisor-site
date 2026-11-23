@@ -6,6 +6,7 @@
   {"@type":"Question","name":"Can I use this tool to file a tax return?","acceptedAnswer":{"@type":"Answer","text":"No. It is an educational comparison prototype, not a filing tool or tax advice."}},
   {"@type":"Question","name":"Why do tax systems differ across countries?","acceptedAnswer":{"@type":"Answer","text":"Tax bases, thresholds, deductions, social contributions, benefits, residency rules and filing periods differ. Comparisons require aligned assumptions."}},
   {"@type":"Question","name":"What does the tax wedge mean here?","acceptedAnswer":{"@type":"Answer","text":"It is a simplified teaching ratio of modeled tax components net of a modeled offset to gross income. It is not an official OECD or government measure."}},
-  {"@type":"Question","name":"Are translations legal equivalents?","acceptedAnswer":{"@type":"Answer","text":"No. The English, Simplified Chinese and Japanese strings are educational translations and require qualified review before publication."}}
+  {"@type":"Question","name":"Are translations legal equivalents?","acceptedAnswer":{"@type":"Answer","text":"No. The English, Simplified Chinese and Japanese strings are educational translations and require qualified review before publication."}},
+  {"@type":"Question","name":"How do Form 2848 and Form 8821 differ in Circular 230 study cases?","acceptedAnswer":{"@type":"Answer","text":"Form 2848 authorizes representation for listed tax forms and periods, whereas Form 8821 authorizes inspection and receipt of tax information only."}}
  ]
 }
