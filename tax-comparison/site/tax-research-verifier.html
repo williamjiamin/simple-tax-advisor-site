@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>US Tax Authority Citation &amp; 2026 AEP Relief Verifier | Simple Tax Advisor</title>
+  <meta name="description" content="Educational IRC/Treasury/Judicial authority hierarchy, 37 verified primary sources, 2026 AEP vs 2027 FTA transition penalty screener, and 80 study questions by LIPAI WANG.">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LearningResource",
+    "name": "US Tax Authority Hierarchy & 2026 AEP Penalty Relief Verifier",
+    "author": { "@type": "Person", "name": "LIPAI WANG" },
+    "teaches": ["IRC Statutory Text Hierarchy", "26 CFR 1.6662-4 Substantial Authority", "IRS 2026 Administrative Exemption Process (AEP)", "First-Time Penalty Abatement (FTA) Transition"]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <span class="brand">Simple Tax Advisor · Citation &amp; Relief Verifier</span>
+      <span style="display:flex;gap:14px;flex-wrap:wrap">
+        <a href="index.html">Comparative Tax Hub</a>
+        <a href="ea-procedure-lab.html">EA &amp; Procedure Atlas</a>
+        <a href="../../sources.html">Sources Directory</a>
+      </span>
+    </nav>
+    <section class="hero">
+      <p class="eyebrow">26 CFR 1.6662-4 · 2026 AEP TRANSITION · 37 VERIFIED PRIMARY SOURCES</p>
+      <h1>Tax Research Authority &amp; Penalty Relief Verifier</h1>
+      <p class="subtitle">Screen judicial precedent vs. substantial-authority eligibility across 17 official categories, verify 37 IRS/IRC/CFR pinpoint citations, and model the 2026 AEP vs. Jan 1, 2027 FTA transition rules.</p>
+      <p class="notice">Educational citation and procedural decision screen only — no additive numerical authority probability is assigned, and formal IRS transcript verification governs every real filing.</p>
+    </section>
+  </header>
+
+  <main>
+    <section id="tax-research-disabled" class="notice" hidden>
+      <strong>Tax Research Citation Verifier disabled by feature switch (<code>?tax_research=off</code>).</strong>
+      Remove <code>?tax_research=off</code> from the URL to restore the interactive verifier. <a href="ea-procedure-lab.html">Return to EA Procedure Atlas &rarr;</a>
+    </section>
+
+    <div id="tax-research-root">
+      <section>
+        <h2>1. Authority Hierarchy &amp; 26 CFR 1.6662-4 Screen (17 Categories)</h2>
+        <div style="display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(175px,1fr))">
+          <label>Authority Category <select id="auth-kind"></select></label>
+          <label>Analysis Purpose
+            <select id="auth-purpose">
+              <option value="substantial_authority">Penalty Substantial Authority</option>
+              <option value="merits">Merits / Precedent Research</option>
+            </select>
+          </label>
+          <label>Issuance Date <input id="auth-issued" type="date" value="1985-06-01"></label>
+          <label>Same Taxpayer? (PLR/TAM)
+            <select id="auth-same-taxpayer">
+              <option value="no">No (Third-Party Ruling)</option>
+              <option value="yes">Yes (Recipient Special Rule)</option>
+              <option value="unknown">Unknown</option>
+            </select>
+          </label>
+          <label>News-Release Fact Sheet FAQ?
+            <select id="auth-faq-linked">
+              <option value="no">No / Ordinary FAQ</option>
+              <option value="yes">Yes (Fact Sheet News Release)</option>
+              <option value="unknown">Unknown</option>
+            </select>
+          </label>
+          <label>Factual Match
+            <select id="auth-match">
+              <option value="direct">Direct Match</option>
+              <option value="analogous">Analogous Facts</option>
+              <option value="remote">Remote Match</option>
+            </select>
+          </label>
+        </div>
+        <div id="auth-eval-output" class="results" aria-live="polite"></div>
+      </section>
+
+      <section>
+        <h2>2. 2026 AEP vs. Jan 1, 2027 FTA Penalty Relief Screener</h2>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">
+          <button type="button" data-preset="legacy-2024">Preset: 2024 Legacy FTA (1040)</button>
+          <button type="button" data-preset="aep-2026-941">Preset: 2026 Q2 941 AEP</button>
+          <button type="button" data-preset="missing-transcript">Preset: Missing Transcript Evidence</button>
+          <button type="button" data-preset="post-2027-cutoff">Preset: 2027 Post-FTA Cutoff</button>
+        </div>
+        <div style="display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
+          <label>Return Form
+            <select id="pen-form">
+              <option value="1040">Form 1040 (Individual)</option>
+              <option value="941">Form 941 (Quarterly Payroll)</option>
+              <option value="1120">Form 1120 (Corp)</option>
+              <option value="1120-S">Form 1120-S (S-Corp)</option>
+              <option value="1065">Form 1065 (Partnership)</option>
+            </select>
+          </label>
+          <label>IRC Penalty Code
+            <select id="pen-code">
+              <option value="6651(a)(1)">6651(a)(1) Failure to File</option>
+              <option value="6651(a)(2)">6651(a)(2) Failure to Pay</option>
+              <option value="6656">6656 Failure to Deposit</option>
+              <option value="6698(a)(1)">6698(a)(1) Partnership Late</option>
+              <option value="6699(a)(1)">6699(a)(1) S-Corp Late</option>
+              <option value="6654">6654 Individual Estimated</option>
+            </select>
+          </label>
+          <label>Tax Year <input id="pen-year" type="number" value="2025"></label>
+          <label>Original Due Date <input id="pen-due" type="date" value="2026-04-15"></label>
+          <label>Received Date <input id="pen-received" type="date" value="2026-08-20"></label>
+          <label>3-Yr / 12-Qtr Clean History?
+            <select id="pen-history">
+              <option value="clean">Verified Clean</option>
+              <option value="dirty">Prior FTA/AEP or Unreversed</option>
+              <option value="unknown">Missing Transcript</option>
+            </select>
+          </label>
+          <label>Transcript Verified?
+            <select id="pen-transcript">
+              <option value="yes">Yes</option>
+              <option value="no">No / Unverified</option>
+            </select>
+          </label>
+          <label>AEP Already Considered?
+            <select id="pen-aep-considered">
+              <option value="yes">Yes (Processing Screen)</option>
+              <option value="no">No</option>
+              <option value="unknown">Unknown</option>
+            </select>
+          </label>
+          <label>IRS Error?
+            <select id="pen-irs-error">
+              <option value="no">No</option>
+              <option value="yes">Yes (Assessment Invalid)</option>
+            </select>
+          </label>
+        </div>
+        <div id="pen-output" class="results" aria-live="polite"></div>
+        <div style="display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:16px">
+          <figure style="margin:0"><img src="figures/authority_tree.svg" alt="Tax research authority tree diagram" class="chart"><figcaption style="font-size:.82rem;color:#52647b">Authority Research &amp; Weight Decision Flow</figcaption></figure>
+          <figure style="margin:0"><img src="figures/penalty_relief_tree.svg" alt="IRS penalty relief decision tree diagram" class="chart"><figcaption style="font-size:.82rem;color:#52647b">Penalty Relief Route &amp; 2026 AEP Transition Flow</figcaption></figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>3. Verified Primary IRS, IRC &amp; CFR Sources (37 Citations)</h2>
+        <div style="display:grid;gap:10px;grid-template-columns:2fr 1fr">
+          <label>Filter sources (code section, IRM, CFR, topic) <input id="source-search" type="search" placeholder="e.g., 6662, 20.1.1, AEP, 6110..."></label>
+          <label>Source Type
+            <select id="source-type">
+              <option value="all">All Types</option>
+              <option value="statute">Statutes (26 U.S.C.)</option>
+              <option value="regulation">Treasury Regs (26 CFR)</option>
+              <option value="irs_manual">Internal Revenue Manual (IRM)</option>
+              <option value="irs_guidance">IRS Guidance / Notices</option>
+              <option value="judicial">Judicial Precedent</option>
+            </select>
+          </label>
+        </div>
+        <p id="source-count" style="font-size:.88rem;color:#52647b;margin:8px 0"></p>
+        <div id="source-list" class="results"></div>
+      </section>
+
+      <section>
+        <h2>4. 17-Row IRM Penalty Matrix &amp; Canonical Study Cards</h2>
+        <div id="cards-grid" class="results"></div>
+        <div style="overflow-x:auto">
+          <table style="width:100%;border-collapse:collapse;font-size:.88rem">
+            <thead>
+              <tr style="text-align:left;border-bottom:2px solid #dce1e7">
+                <th style="padding:8px">Gate</th><th style="padding:8px">Scope</th><th style="padding:8px">Decision Boundary</th><th style="padding:8px">IRM / CFR Pinpoint</th>
+              </tr>
+            </thead>
+            <tbody id="matrix-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section>
+        <h2>5. Interactive Study Practice Bank (80 Balanced Questions)</h2>
+        <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-bottom:12px">
+          <label>Topic <select id="q-topic"></select></label>
+          <button type="button" id="q-next" style="padding:8px 14px;cursor:pointer">Next Question &rarr;</button>
+          <span id="q-meta" style="font-size:.88rem;color:#52647b"></span>
+        </div>
+        <p id="q-stem" style="font-weight:600"></p>
+        <div id="q-options" class="results"></div>
+        <div id="q-explanation" class="notice" hidden></div>
+      </section>
+    </div>
+  </main>
+
+  <footer>Authored by LIPAI WANG · Local educational draft · Sources verified as of 2026-11-22</footer>
+  <script type="module" src="tax-research-verifier-ui.js"></script>
+</body>
+</html>

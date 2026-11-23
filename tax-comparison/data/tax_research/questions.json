@@ -1,0 +1,2361 @@
+{
+  "schema_version": "1.0",
+  "author": "LIPAI WANG",
+  "checked_on": "2026-11-22",
+  "purpose": "Original educational practice; private draft. Legal rules require current-source and case-specific review.",
+  "questions": [
+    {
+      "topic": "Authority foundations",
+      "stem": "A researcher finds an administrative manual instruction inconsistent with an applicable statute. What is the sound research conclusion?",
+      "explanation": "A statute establishes the legal rule. Internal administrative instructions cannot independently repeal or amend it; the apparent conflict should be identified and checked against controlling authority.",
+      "source_ids": [
+        "AUTH-IRS-GUIDANCE",
+        "AUTH-IRM-JUDICIAL",
+        "AUTH-IRM-PROCESS"
+      ],
+      "difficulty": "foundation",
+      "id": "Q001",
+      "options": [
+        {
+          "key": "A",
+          "text": "Apply the manual because its internal rules always replace conflicting statutory requirements."
+        },
+        {
+          "key": "B",
+          "text": "Average both positions because equally weighted sources provide the most balanced conclusion."
+        },
+        {
+          "key": "C",
+          "text": "Apply the governing statute and explain why internal guidance cannot displace its requirements."
+        },
+        {
+          "key": "D",
+          "text": "Apply whichever source appeared later without investigating its lawful scope or effect."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Authority foundations",
+      "stem": "What is the most appropriate role for a numerical source weight in a research tool?",
+      "explanation": "A reproducible score can order research work. It cannot supply legal force, decide jurisdiction, or make a source applicable to facts that it does not address.",
+      "source_ids": [
+        "AUTH-6662-4"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q002",
+      "options": [
+        {
+          "key": "A",
+          "text": "Resolve legal conflicts automatically whenever one citation receives a higher numerical score."
+        },
+        {
+          "key": "B",
+          "text": "Convert nonprecedential advice into binding authority once enough similar documents are collected."
+        },
+        {
+          "key": "C",
+          "text": "Replace jurisdictional analysis whenever the scoring model consistently produces identical output."
+        },
+        {
+          "key": "D",
+          "text": "Organize review priority while keeping binding effect and factual applicability separately assessed."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Statutes and regulations",
+      "stem": "Before using the current text of a tax provision to analyze an older return, what should the researcher verify?",
+      "explanation": "Current text may differ from the law governing the relevant period. Effective dates, transition provisions, and applicable amendments must be matched to the facts.",
+      "source_ids": [
+        "AUTH-IRS-GUIDANCE",
+        "AUTH-IRM-RESEARCH"
+      ],
+      "difficulty": "foundation",
+      "id": "Q003",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use the return filing date alone without considering statutory transition or applicability."
+        },
+        {
+          "key": "B",
+          "text": "Verify the applicable effective dates and amendments governing the specific historical tax period."
+        },
+        {
+          "key": "C",
+          "text": "Discard earlier provisions because current website text replaces every prior filing obligation."
+        },
+        {
+          "key": "D",
+          "text": "Use the newest version because all current amendments necessarily operate with retroactivity."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Statutes and regulations",
+      "stem": "How should a final Treasury regulation be evaluated when preparing a legal research memorandum?",
+      "explanation": "Regulations are important legal authorities, but validity, temporal applicability, statutory authority, and controlling judicial interpretation still matter.",
+      "source_ids": [
+        "AUTH-IRS-GUIDANCE",
+        "AUTH-6662-4",
+        "AUTH-7805",
+        "AUTH-SCOTUS-2024"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q004",
+      "options": [
+        {
+          "key": "A",
+          "text": "Review its statutory basis, applicable dates, validity, and relevant controlling judicial decisions."
+        },
+        {
+          "key": "B",
+          "text": "Assume its regulatory status makes all contrary statutory language automatically legally irrelevant."
+        },
+        {
+          "key": "C",
+          "text": "Assign it the identical precedential effect as an unrelated written ruling without analysis."
+        },
+        {
+          "key": "D",
+          "text": "Treat its publication date as definitive evidence that every previous decision is obsolete."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Proposed regulations",
+      "stem": "Which statement correctly describes proposed Treasury regulations in ordinary research?",
+      "explanation": "A proposal is not ordinarily a final binding regulation. Proposed regulations are nevertheless among the materials listed for substantial-authority analysis, subject to appropriate weight.",
+      "source_ids": [
+        "AUTH-6662-4",
+        "AUTH-IRS-GUIDANCE"
+      ],
+      "difficulty": "foundation",
+      "id": "Q005",
+      "options": [
+        {
+          "key": "A",
+          "text": "They automatically bind every court because their text anticipates the final rule."
+        },
+        {
+          "key": "B",
+          "text": "They have no research relevance because proposals cannot inform any penalty analysis."
+        },
+        {
+          "key": "C",
+          "text": "They necessarily repeal existing final regulations as soon as public comments begin."
+        },
+        {
+          "key": "D",
+          "text": "They may inform analysis but generally do not have final regulatory force."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Published guidance",
+      "stem": "Which distinction best separates a revenue ruling from a revenue procedure?",
+      "explanation": "Revenue rulings communicate official interpretations applying law to stated facts. Revenue procedures generally address practices and procedures affecting rights or duties under tax law.",
+      "source_ids": [
+        "AUTH-IRS-PRIMER"
+      ],
+      "difficulty": "foundation",
+      "id": "Q006",
+      "options": [
+        {
+          "key": "A",
+          "text": "A ruling generally applies law to facts; a procedure generally explains practice."
+        },
+        {
+          "key": "B",
+          "text": "A ruling generally resolves judicial appeals; a procedure generally issues court judgments."
+        },
+        {
+          "key": "C",
+          "text": "A ruling generally concerns private requests; a procedure generally excludes public reliance."
+        },
+        {
+          "key": "D",
+          "text": "A ruling generally enacts new statutes; a procedure generally repeals existing regulations."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Published guidance",
+      "stem": "A revenue ruling uses materially different facts from the taxpayer’s transaction. What is the appropriate next step?",
+      "explanation": "Relevance and factual similarity affect weight. The researcher should identify which factual differences matter to the stated reasoning rather than mechanically copying the result.",
+      "source_ids": [
+        "AUTH-6662-4",
+        "AUTH-IRS-GUIDANCE"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q007",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reject all published guidance because facts can never be identical across separate taxpayers."
+        },
+        {
+          "key": "B",
+          "text": "Adopt the result because a ruling number alone establishes a universally binding factual match."
+        },
+        {
+          "key": "C",
+          "text": "Compare the factual differences before deciding how much the ruling supports the position."
+        },
+        {
+          "key": "D",
+          "text": "Ignore the factual differences because every published ruling applies universally to all transactions."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Private written determinations",
+      "stem": "An unrelated taxpayer locates a favorable private letter ruling. What is the correct general treatment under section 6110(k)(3)?",
+      "explanation": "Unless an exception applies, a written determination may not be used or cited as precedent. Public availability does not turn an individualized determination into a generally binding rule.",
+      "source_ids": [
+        "AUTH-6110"
+      ],
+      "difficulty": "foundation",
+      "id": "Q008",
+      "options": [
+        {
+          "key": "A",
+          "text": "Treat the written determination as a regulation whenever the facts appear similar."
+        },
+        {
+          "key": "B",
+          "text": "Do not inspect the written determination because public release makes it legally prohibited."
+        },
+        {
+          "key": "C",
+          "text": "Treat the written determination as binding precedent whenever its outcome is favorable."
+        },
+        {
+          "key": "D",
+          "text": "Do not treat the written determination as legal precedent for the unrelated taxpayer."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Private written determinations",
+      "stem": "How can a post-1976 private letter ruling be relevant despite its general nonprecedential status?",
+      "explanation": "The substantial-authority regulation lists private letter rulings and technical advice memoranda issued after October 31, 1976. That distinct penalty analysis does not make them precedential.",
+      "source_ids": [
+        "AUTH-6110",
+        "AUTH-6662-4"
+      ],
+      "difficulty": "advanced",
+      "id": "Q009",
+      "options": [
+        {
+          "key": "A",
+          "text": "It automatically becomes controlling law when another taxpayer relies on similar facts."
+        },
+        {
+          "key": "B",
+          "text": "It always overrides contrary published guidance because its analysis is individually tailored."
+        },
+        {
+          "key": "C",
+          "text": "It is listed among materials considered in the substantial-authority penalty regulation."
+        },
+        {
+          "key": "D",
+          "text": "It cannot enter any analysis because nonprecedential status eliminates every permissible use."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Chief Counsel advice",
+      "stem": "A researcher finds a Chief Counsel advice memorandum favorable to an unrelated taxpayer. Which conclusion is safest?",
+      "explanation": "Chief Counsel advice is a written determination within section 6110. Its reasoning may identify research leads, but it is not precedent and should not automatically be equated with every source expressly listed in the substantial-authority regulation.",
+      "source_ids": [
+        "AUTH-6110",
+        "AUTH-6662-4"
+      ],
+      "difficulty": "advanced",
+      "id": "Q010",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use its conclusion alone because publicly disclosed legal advice supersedes conflicting statutes."
+        },
+        {
+          "key": "B",
+          "text": "Treat its reasoning as a precedential holding binding all courts and unrelated taxpayers."
+        },
+        {
+          "key": "C",
+          "text": "Assume its heading gives it exactly the regulatory treatment expressly assigned to rulings."
+        },
+        {
+          "key": "D",
+          "text": "Analyze its reasoning while preserving its nonprecedential status and checking listed authorities."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Judicial authority",
+      "stem": "Why is it incorrect to place every court opinion below every private letter ruling in one universal hierarchy?",
+      "explanation": "Court decisions require a separate analysis of hierarchy, jurisdiction, precedential status, and subsequent treatment. A private ruling’s nonprecedential status does not outrank controlling judicial authority.",
+      "source_ids": [
+        "AUTH-6110",
+        "AUTH-7482"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q011",
+      "options": [
+        {
+          "key": "A",
+          "text": "Court opinions lack legal authority unless an agency first approves their written reasoning."
+        },
+        {
+          "key": "B",
+          "text": "Judicial precedential effect depends on the court and forum, unlike private rulings."
+        },
+        {
+          "key": "C",
+          "text": "Private rulings always control appellate courts when their issuing dates are more recent."
+        },
+        {
+          "key": "D",
+          "text": "Every private ruling gains priority over judicial decisions involving other unrelated taxpayers."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Judicial authority",
+      "stem": "A memorandum cites an appellate opinion without identifying the relevant appellate venue. What important issue remains unresolved?",
+      "explanation": "The route of appeal and the relevant jurisdiction affect controlling precedential status. A decision from another circuit can be persuasive without controlling the forum.",
+      "source_ids": [
+        "AUTH-7482"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q012",
+      "options": [
+        {
+          "key": "A",
+          "text": "Whether every appellate opinion binds all other circuits regardless of their contrary holdings."
+        },
+        {
+          "key": "B",
+          "text": "Whether agency staff may delete the judicial holding by changing an internal manual."
+        },
+        {
+          "key": "C",
+          "text": "Whether that appellate authority controls the forum or instead supplies persuasive reasoning."
+        },
+        {
+          "key": "D",
+          "text": "Whether the opinion becomes a statute merely because the appellate panel issued it."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Tax Court opinions",
+      "stem": "What does section 7463(b) provide about a decision in a qualifying small tax case?",
+      "explanation": "A decision entered under the small tax case procedure is not reviewable in another court and is not treated as precedent for another case.",
+      "source_ids": [
+        "AUTH-7463"
+      ],
+      "difficulty": "foundation",
+      "id": "Q013",
+      "options": [
+        {
+          "key": "A",
+          "text": "It cannot be appealed elsewhere or treated as judicial precedent in another case."
+        },
+        {
+          "key": "B",
+          "text": "It is reviewable automatically and binds every later case involving similar facts."
+        },
+        {
+          "key": "C",
+          "text": "It becomes binding nationwide whenever the disputed tax concerns an individual return."
+        },
+        {
+          "key": "D",
+          "text": "It becomes a final regulation and supersedes all earlier administrative published guidance."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Tax Court opinions",
+      "stem": "Which research practice best avoids confusing a Tax Court summary opinion with other Tax Court opinions?",
+      "explanation": "Summary opinions associated with small tax cases have a statutory nonprecedential limitation. The opinion type and procedural setting should be recorded rather than inferred from the court name alone.",
+      "source_ids": [
+        "AUTH-7463",
+        "AUTH-TAXCOURT-OPINIONS"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q014",
+      "options": [
+        {
+          "key": "A",
+          "text": "Identify the opinion type and verify its precedential treatment before relying on it."
+        },
+        {
+          "key": "B",
+          "text": "Classify every memorandum opinion as a small case without checking the procedural designation."
+        },
+        {
+          "key": "C",
+          "text": "Treat the document title as irrelevant because citation format never affects legal analysis."
+        },
+        {
+          "key": "D",
+          "text": "Assume every opinion has identical precedential effect because the issuing court is identical."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Substantial authority",
+      "stem": "Under the substantial-authority regulation, what primarily determines the weight of a cited authority?",
+      "explanation": "The regulation focuses on relevance and persuasiveness and the type of document. The number of authorities alone is not determinative.",
+      "source_ids": [
+        "AUTH-6662-4"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q015",
+      "options": [
+        {
+          "key": "A",
+          "text": "Its search ranking and popularity, together with how often unrelated websites repeat it."
+        },
+        {
+          "key": "B",
+          "text": "Its numerical citation count, without regard to applicability or the reasoning it provides."
+        },
+        {
+          "key": "C",
+          "text": "Its favorable outcome and length, together with whether the taxpayer likes its conclusion."
+        },
+        {
+          "key": "D",
+          "text": "Its relevance and persuasiveness, together with the type of document providing authority."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Substantial authority",
+      "stem": "A file contains ten weak supporting documents and one directly relevant contrary authority. How should the analysis proceed?",
+      "explanation": "Substantial authority requires an objective weighing of supporting authorities relative to contrary authorities. Quantity cannot substitute for weight and relevance.",
+      "source_ids": [
+        "AUTH-6662-4"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q016",
+      "options": [
+        {
+          "key": "A",
+          "text": "Exclude contrary authorities because the purpose of research is to defend the selected position."
+        },
+        {
+          "key": "B",
+          "text": "Count favorable documents and approve the position whenever their number exceeds contrary documents."
+        },
+        {
+          "key": "C",
+          "text": "Discard all supporting materials because one contrary document automatically defeats every possible position."
+        },
+        {
+          "key": "D",
+          "text": "Weigh supporting authorities against relevant contrary sources rather than just counting favorable documents."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Substantial authority",
+      "stem": "Which source is expressly excluded as an authority by the substantial-authority regulation, although its cited primary sources may be useful?",
+      "explanation": "Conclusions in treatises, periodicals, and opinions rendered by tax professionals are not themselves authorities for this test. Their underlying legal authorities may still be relevant.",
+      "source_ids": [
+        "AUTH-6662-4"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q017",
+      "options": [
+        {
+          "key": "A",
+          "text": "An opinion supplied by a tax professional explaining the taxpayer’s proposed treatment."
+        },
+        {
+          "key": "B",
+          "text": "A qualifying judicial decision addressing the relevant federal income tax legal issue."
+        },
+        {
+          "key": "C",
+          "text": "A final Treasury regulation addressing the treatment of the relevant taxable transaction."
+        },
+        {
+          "key": "D",
+          "text": "An applicable revenue ruling explaining the treatment of the relevant taxable transaction."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Substantial authority",
+      "stem": "How does the substantial-authority standard compare with the more-likely-than-not standard?",
+      "explanation": "The regulation states that substantial authority is less stringent than more likely than not and more stringent than reasonable basis. It is an objective standard.",
+      "source_ids": [
+        "AUTH-6662-4"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q018",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is identical, requiring every qualifying position to exceed the same probability threshold."
+        },
+        {
+          "key": "B",
+          "text": "It requires no support, provided that the taxpayer sincerely believes the return is correct."
+        },
+        {
+          "key": "C",
+          "text": "It is less stringent, while still requiring an objective weighing of legal authorities."
+        },
+        {
+          "key": "D",
+          "text": "It is more stringent, requiring a favorable result with absolute certainty on examination."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Substantial authority",
+      "stem": "Which statement best handles geography in the substantial-authority regulation?",
+      "explanation": "The regulation generally disregards geographical applicability in weighing authority, while providing a special rule for qualifying controlling appellate precedent. This differs from the ordinary question of what binds a forum.",
+      "source_ids": [
+        "AUTH-6662-4"
+      ],
+      "difficulty": "advanced",
+      "id": "Q019",
+      "options": [
+        {
+          "key": "A",
+          "text": "Always treat every out-of-circuit opinion as binding precedent throughout every possible judicial forum."
+        },
+        {
+          "key": "B",
+          "text": "Use geographical proximity alone to rank all authorities without examining their legal reasoning."
+        },
+        {
+          "key": "C",
+          "text": "Ordinarily disregard location, while preserving the special legal rule for controlling appellate precedent."
+        },
+        {
+          "key": "D",
+          "text": "Always discard every out-of-circuit opinion before considering its relevance or substantive persuasiveness."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Internal Revenue Manual",
+      "stem": "What is the principal research role of the Internal Revenue Manual?",
+      "explanation": "The manual guides agency operations and is useful for understanding administrative review. It is not a substitute for statutes, regulations, and controlling decisions.",
+      "source_ids": [
+        "AUTH-IRM-PROCESS"
+      ],
+      "difficulty": "foundation",
+      "id": "Q020",
+      "options": [
+        {
+          "key": "A",
+          "text": "Create new statutory penalties whenever an employee adds instructions to an internal subsection."
+        },
+        {
+          "key": "B",
+          "text": "Provide binding judicial precedent whenever a manual subsection describes a familiar factual situation."
+        },
+        {
+          "key": "C",
+          "text": "Replace court decisions whenever internal operating procedures express a different administrative preference."
+        },
+        {
+          "key": "D",
+          "text": "Explain agency procedures while directing researchers to applicable statutes and other legal authority."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Internal Revenue Manual",
+      "stem": "A manual subsection has an older revision date than a directly applicable procedural update. What should the researcher do?",
+      "explanation": "Procedural updates may change an affected subsection before the consolidated manual text reflects the change. The affected provisions, effective date, and scope should be recorded explicitly.",
+      "source_ids": [
+        "PEN_AEP_UPDATE"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q021",
+      "options": [
+        {
+          "key": "A",
+          "text": "Read both documents and determine the update’s scope, effective date, and continuing applicability."
+        },
+        {
+          "key": "B",
+          "text": "Ignore the update because only the displayed manual page can describe current agency procedures."
+        },
+        {
+          "key": "C",
+          "text": "Apply the update to every penalty because its later date automatically eliminates all limitations."
+        },
+        {
+          "key": "D",
+          "text": "Discard the manual entirely because an update necessarily repeals all unrelated operating instructions."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Citation practice",
+      "stem": "Which citation record gives another researcher the strongest basis to verify a narrow legal proposition?",
+      "explanation": "A useful research record connects a precise proposition to a retrievable official source and pinpoint. Dates and applicability explain why that version supports the analysis.",
+      "source_ids": [
+        "AUTH-6662-4",
+        "AUTH-IRS-GUIDANCE"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q022",
+      "options": [
+        {
+          "key": "A",
+          "text": "The search-result headline alone, without reading the cited source or checking its applicable text."
+        },
+        {
+          "key": "B",
+          "text": "The document title alone, without a subsection, relevant date, or statement of factual application."
+        },
+        {
+          "key": "C",
+          "text": "The researcher’s preferred answer alone, without identifying legal support or any contrary authority."
+        },
+        {
+          "key": "D",
+          "text": "The official source, exact subsection, relevant date, and explanation of the proposition supported."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Citation practice",
+      "stem": "A source is genuine but addresses another penalty provision. What should the researcher avoid?",
+      "explanation": "Authenticity is necessary for reliable research but does not establish applicability. Penalty provisions can contain different exceptions, standards, and procedural routes.",
+      "source_ids": [
+        "PEN_RC_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q023",
+      "options": [
+        {
+          "key": "A",
+          "text": "Recording the official source address together with a precise section and applicable date."
+        },
+        {
+          "key": "B",
+          "text": "Checking whether the relevant statutory language provides a different exception or relief standard."
+        },
+        {
+          "key": "C",
+          "text": "Comparing the facts and legal requirements before using the source in the final analysis."
+        },
+        {
+          "key": "D",
+          "text": "Treating source authenticity as proof that its legal rule governs the penalty under review."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Authority conflicts",
+      "stem": "A research tool produces the same recommendation twice from unchanged inputs. What does that demonstrate?",
+      "explanation": "Repeated matching outputs show consistency for those runs; they do not establish determinism for every input or prove legal correctness. Legal accuracy still depends on valid sources, correct rule interpretation, complete facts, and the limits of the model.",
+      "source_ids": [
+        "AUTH-6662-4"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q024",
+      "options": [
+        {
+          "key": "A",
+          "text": "Validity of its conclusion, because consistent outputs eliminate any need for legal review."
+        },
+        {
+          "key": "B",
+          "text": "Complete factual certainty, because repeated outputs prove that no material information is missing."
+        },
+        {
+          "key": "C",
+          "text": "Consistency on that repeated input, without proving the substantive legal conclusion correct."
+        },
+        {
+          "key": "D",
+          "text": "Authority over the courts, because repeatable calculations establish binding national legal precedent."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "For an eligible 2024 return, which penalty is within the ordinary First Time Abate scope?",
+      "explanation": "FTA covers specified failure-to-file, failure-to-pay, and failure-to-deposit penalties. The other penalties require their own relief analysis rather than ordinary FTA.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "foundation",
+      "id": "Q025",
+      "options": [
+        {
+          "key": "A",
+          "text": "A failure-to-file penalty imposed under section 6651(a)(1), subject to the remaining eligibility requirements."
+        },
+        {
+          "key": "B",
+          "text": "An information-return penalty imposed under section 6721, subject to the remaining eligibility requirements."
+        },
+        {
+          "key": "C",
+          "text": "An accuracy-related penalty imposed under section 6662, subject to the remaining eligibility requirements."
+        },
+        {
+          "key": "D",
+          "text": "An estimated-tax penalty imposed under section 6654, subject to the remaining eligibility requirements."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "A partnership’s timely 2024 return lacks required information, producing a section 6698(a)(2) penalty. Which result is correct?",
+      "explanation": "The ordinary FTA scope includes section 6698(a)(1) late filing, not section 6698(a)(2) failure to supply required information. Reasonable-cause relief must be analyzed separately.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q026",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ordinary FTA eliminates this penalty because every penalty in section 6698 is eligible."
+        },
+        {
+          "key": "B",
+          "text": "Ordinary FTA automatically covers this penalty whenever the partnership had three clean years."
+        },
+        {
+          "key": "C",
+          "text": "Ordinary FTA does not cover this incomplete-information penalty; examine other available relief."
+        },
+        {
+          "key": "D",
+          "text": "Ordinary FTA requires no review because a timely return can never generate penalties."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "Which distinction matters when screening a 2024 S corporation penalty under section 6699 for FTA?",
+      "explanation": "FTA specifically includes the late-filing penalty under section 6699(a)(1). The incomplete-information penalty under subsection (a)(2) is outside that ordinary scope.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q027",
+      "options": [
+        {
+          "key": "A",
+          "text": "Separate subsection (a)(1) late filing from subsection (a)(2) missing required return information."
+        },
+        {
+          "key": "B",
+          "text": "Include subsection (a)(2) automatically because timely filing always proves complete statutory compliance."
+        },
+        {
+          "key": "C",
+          "text": "Exclude subsection (a)(1) categorically because corporations cannot qualify for administrative penalty relief."
+        },
+        {
+          "key": "D",
+          "text": "Treat subsections (a)(1) and (a)(2) as interchangeable because both share one statutory section."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "For an eligible 2024 annual return, what is the usual FTA compliance-history lookback?",
+      "explanation": "The ordinary lookback is the preceding three years, with relevant account and return-type rules. FTA is not a once-in-a-lifetime program.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "foundation",
+      "id": "Q028",
+      "options": [
+        {
+          "key": "A",
+          "text": "Review only the current return, because prior filing conduct has no eligibility relevance."
+        },
+        {
+          "key": "B",
+          "text": "Review the three preceding tax years, including applicable return and penalty history."
+        },
+        {
+          "key": "C",
+          "text": "Review only the preceding month, ignoring every earlier return and assessed tax penalty."
+        },
+        {
+          "key": "D",
+          "text": "Review the taxpayer’s entire lifetime, treating every past penalty as a permanent exclusion."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "A new business had no requirement to file the relevant return for the three prior years. How should that history be treated?",
+      "explanation": "The FTA history criteria recognize years when there was no filing requirement. This exception does not eliminate other eligibility conditions.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q029",
+      "options": [
+        {
+          "key": "A",
+          "text": "The business always qualifies without reviewing any current filing or payment compliance rules."
+        },
+        {
+          "key": "B",
+          "text": "The business must submit unnecessary returns solely to create a three-year filing history."
+        },
+        {
+          "key": "C",
+          "text": "A verified absence of filing requirements can satisfy the relevant history exception."
+        },
+        {
+          "key": "D",
+          "text": "Three missing returns automatically disqualify the business even when none were legally required."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "The only penalty in the relevant three-year history is an estimated-tax penalty. What is the appropriate FTA conclusion?",
+      "explanation": "The ordinary FTA history screen makes an exception for estimated-tax penalties. Other account conditions and eligibility rules still must be checked.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q030",
+      "options": [
+        {
+          "key": "A",
+          "text": "That penalty establishes relief without checking any other filing or payment requirements."
+        },
+        {
+          "key": "B",
+          "text": "That penalty alone does not defeat history eligibility under the stated exception."
+        },
+        {
+          "key": "C",
+          "text": "That penalty permanently defeats eligibility for every later period and return type."
+        },
+        {
+          "key": "D",
+          "text": "That penalty proves reasonable cause for all later filing and payment failures."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "A prior penalty within the lookback was fully reversed for reasonable cause. How does that affect the FTA history review?",
+      "explanation": "A reasonable-cause reversal is not the same as prior FTA. The abatement reason and account records should be verified before determining eligibility.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "advanced",
+      "id": "Q031",
+      "options": [
+        {
+          "key": "A",
+          "text": "The reversal always bars eligibility because any prior assessment creates a permanent exclusion."
+        },
+        {
+          "key": "B",
+          "text": "The reversal may preserve eligibility; verify its reason and all remaining account requirements."
+        },
+        {
+          "key": "C",
+          "text": "The reversal guarantees eligibility because no other filing or payment requirements remain applicable."
+        },
+        {
+          "key": "D",
+          "text": "The reversal must represent previous FTA regardless of its documented abatement reason code."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "A relevant penalty was removed using FTA two years before the penalized 2024 annual return. What is the likely consequence?",
+      "explanation": "Prior FTA within the relevant three-year lookback is a disqualifying history item for ordinary FTA. It should not be mislabeled as a reasonable-cause reversal.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q032",
+      "options": [
+        {
+          "key": "A",
+          "text": "The prior FTA is irrelevant whenever current penalties exceed the earlier assessed amount."
+        },
+        {
+          "key": "B",
+          "text": "The prior FTA becomes irrelevant once the taxpayer requests relief under another heading."
+        },
+        {
+          "key": "C",
+          "text": "The prior FTA proves eligibility because administrative relief always resets account history."
+        },
+        {
+          "key": "D",
+          "text": "The prior FTA within the lookback prevents an ordinary clean-history FTA finding."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "A 2024 FTA screening file lacks evidence that all currently required returns were filed or validly extended. What should the tool report?",
+      "explanation": "Unknown compliance information is an evidence gap, not an affirmative finding. The relevant filing or extension status should be obtained before an eligibility conclusion.",
+      "source_ids": [
+        "PEN_FTA_IRM",
+        "PEN_FTA_COMPLIANCE"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q033",
+      "options": [
+        {
+          "key": "A",
+          "text": "Approve relief because absent records must be treated as proof of timely filing."
+        },
+        {
+          "key": "B",
+          "text": "Deny relief permanently because missing evidence proves that no return can be filed."
+        },
+        {
+          "key": "C",
+          "text": "Require further review because a material compliance condition has not been verified."
+        },
+        {
+          "key": "D",
+          "text": "Ignore filing status because clean penalty history removes every new compliance condition."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "For legacy FTA, how can a taxpayer with unpaid tax satisfy the payment-arrangement condition?",
+      "explanation": "Payment compliance can include an approved payment arrangement that is being honored. A mere unsupported intention to pay is not equivalent.",
+      "source_ids": [
+        "PEN_FTA_IRM",
+        "PEN_FTA_COMPLIANCE"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q034",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maintain an approved payment arrangement and remain compliant with its required installments."
+        },
+        {
+          "key": "B",
+          "text": "Ignore required installments because the original request for a plan permanently proves compliance."
+        },
+        {
+          "key": "C",
+          "text": "Promise informally to pay someday without arranging payment or making required installments."
+        },
+        {
+          "key": "D",
+          "text": "Dispute every assessed amount verbally without obtaining relief or maintaining any payment arrangement."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "A legacy FTA request addresses failure-to-pay penalties while tax remains unpaid. Which limitation should be explained?",
+      "explanation": "Under legacy FTA, failure-to-pay penalties can continue to accrue until full payment. Penalty relief should not be confused with cancellation of the underlying tax or interest on that tax.",
+      "source_ids": [
+        "PEN_AEP_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q035",
+      "options": [
+        {
+          "key": "A",
+          "text": "The underlying tax interest disappears automatically even when the assessed tax remains unpaid."
+        },
+        {
+          "key": "B",
+          "text": "The unpaid tax itself disappears whenever a related failure-to-pay penalty receives administrative relief."
+        },
+        {
+          "key": "C",
+          "text": "Further failure-to-pay penalties may continue accumulating until the outstanding tax is fully paid."
+        },
+        {
+          "key": "D",
+          "text": "All future failure-to-pay penalties stop permanently once the taxpayer first requests administrative relief."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "A taxpayer meets all ordinary FTA requirements for an eligible 2024 penalty but has no extraordinary hardship. Is hardship evidence essential?",
+      "explanation": "FTA rests on its administrative eligibility criteria. A reasonable-cause showing is a different relief route and is not required when FTA applies.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "foundation",
+      "id": "Q036",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes; every FTA request requires medical records proving complete incapacity throughout the year."
+        },
+        {
+          "key": "B",
+          "text": "Yes; every FTA request requires a disaster declaration covering the taxpayer’s precise address."
+        },
+        {
+          "key": "C",
+          "text": "No; because every assessed penalty must be removed whenever a taxpayer requests relief."
+        },
+        {
+          "key": "D",
+          "text": "No; FTA provides administrative relief without requiring a separate showing of reasonable cause."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "A taxpayer requests relief for an eligible 2024 penalty without specifically saying “First Time Abate.” What should ordinarily happen?",
+      "explanation": "The public administrative-relief guidance says taxpayers need not specifically request FTA by name. The account information is reviewed for applicable eligibility.",
+      "source_ids": [
+        "PEN_AEP_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q037",
+      "options": [
+        {
+          "key": "A",
+          "text": "The agency may check FTA eligibility without requiring that exact phrase in the request."
+        },
+        {
+          "key": "B",
+          "text": "The penalty vanishes because every request for relief always proves all the eligibility criteria."
+        },
+        {
+          "key": "C",
+          "text": "The request must fail because the taxpayer omitted a legally mandatory set of magic words."
+        },
+        {
+          "key": "D",
+          "text": "The agency must ignore account history because the taxpayer did not select an official label."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "A legacy failure-to-deposit penalty contains an electronic-deposit-avoidance component. What is the sound screening response?",
+      "explanation": "FTA has a specific restriction relating to electronic-deposit avoidance. Mixed components require careful review rather than an all-or-nothing assumption about the whole assessment.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "advanced",
+      "id": "Q038",
+      "options": [
+        {
+          "key": "A",
+          "text": "Erase the entire deposit obligation because payment method rules never affect penalty relief."
+        },
+        {
+          "key": "B",
+          "text": "Flag the special exclusion and require allocation review before treating it as eligible."
+        },
+        {
+          "key": "C",
+          "text": "Approve the whole penalty because every deposit-related charge qualifies under the same agency rules."
+        },
+        {
+          "key": "D",
+          "text": "Treat the component as estimated tax because both penalties concern the timing of payments."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "Why should a legacy employment-tax FTA screen ask about prior failure-to-deposit waivers?",
+      "explanation": "The employment-tax rules include an additional screen for four or more specified failure-to-deposit waivers in the relevant lookback. The exact waiver history must be verified.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q039",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prior waivers establish a permanent exemption from making all later required tax deposits."
+        },
+        {
+          "key": "B",
+          "text": "Four or more specified waivers can trigger a separate administrative eligibility restriction."
+        },
+        {
+          "key": "C",
+          "text": "Waiver counts replace the need to review the relevant return and penalty histories."
+        },
+        {
+          "key": "D",
+          "text": "Any prior waiver automatically converts the deposit penalty into a criminal tax conviction."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "A penalty concerns a tax period ending December 31, 2000. What should the ordinary FTA screen conclude?",
+      "explanation": "The manual states that FTA applies to tax periods ending after December 31, 2000. A period ending on that date falls outside that stated scope; other relief grounds require separate analysis.",
+      "source_ids": [
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "advanced",
+      "id": "Q040",
+      "options": [
+        {
+          "key": "A",
+          "text": "The historical period qualifies whenever the taxpayer’s current request arrives after the program began."
+        },
+        {
+          "key": "B",
+          "text": "The period automatically qualifies because FTA covers every tax period without any historical limitation."
+        },
+        {
+          "key": "C",
+          "text": "The period needs no review because all penalty liabilities expire when administrative programs change."
+        },
+        {
+          "key": "D",
+          "text": "The period predates FTA’s covered periods, so investigate another legally available relief route."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Legacy First Time Abate",
+      "stem": "An estate return filed for an infrequent event incurred a legacy late-filing penalty. What should a researcher avoid assuming?",
+      "explanation": "Ordinary FTA is not universally available for every return. Event-based returns can be excluded, so return type is a necessary screening fact.",
+      "source_ids": [
+        "PEN_FTA_IRM",
+        "PEN_AEP_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q041",
+      "options": [
+        {
+          "key": "A",
+          "text": "Checking the particular return type and penalty provision before selecting an administrative relief route."
+        },
+        {
+          "key": "B",
+          "text": "Considering another supported relief ground when the ordinary FTA rules exclude that return type."
+        },
+        {
+          "key": "C",
+          "text": "Assuming ordinary FTA applies without checking restrictions for event-based or infrequently filed returns."
+        },
+        {
+          "key": "D",
+          "text": "Recording the relevant tax period and procedural status before requesting any account-specific penalty review."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Penalty identification",
+      "stem": "A notice says “late penalty” but the file lacks its section, return type, and assessed period. What is the best next step?",
+      "explanation": "The statute, return, period, and assessment details determine the available relief paths. A generic label is insufficient for a reliable decision.",
+      "source_ids": [
+        "PEN_RC_PUBLIC",
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "foundation",
+      "id": "Q042",
+      "options": [
+        {
+          "key": "A",
+          "text": "Classify it as reasonable cause because a vague label automatically defeats the assessment."
+        },
+        {
+          "key": "B",
+          "text": "Identify the assessed penalty and period before selecting any specific relief rule."
+        },
+        {
+          "key": "C",
+          "text": "Classify it as interest because penalty labels never require further account investigation."
+        },
+        {
+          "key": "D",
+          "text": "Classify it as eligible FTA because all late penalties share one statutory basis."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Relief distinctions",
+      "stem": "Does a clean three-year history, standing alone, establish reasonable cause for a filing failure?",
+      "explanation": "A first compliance failure may be relevant, but reasonable cause still requires analysis of the circumstances and applicable legal standard. FTA and reasonable cause are distinct routes.",
+      "source_ids": [
+        "PEN_FTA_IRM",
+        "PEN_RC_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q043",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes; clean history conclusively proves the taxpayer lacked control over the filing failure."
+        },
+        {
+          "key": "B",
+          "text": "No; it supports administrative-history analysis but does not itself establish reasonable cause."
+        },
+        {
+          "key": "C",
+          "text": "No; because clean history can never be considered when reviewing any relief request."
+        },
+        {
+          "key": "D",
+          "text": "Yes; three clean years eliminate the need to explain the current failure altogether."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Relief distinctions",
+      "stem": "A taxpayer fails the legacy FTA history screen. What is the appropriate next research step?",
+      "explanation": "Failure to qualify for FTA does not automatically foreclose reasonable cause, statutory exceptions, or other applicable administrative relief. Each has its own requirements.",
+      "source_ids": [
+        "PEN_AEP_PUBLIC",
+        "PEN_RC_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q044",
+      "options": [
+        {
+          "key": "A",
+          "text": "Change the penalty code until a preferred administrative program produces an eligible result."
+        },
+        {
+          "key": "B",
+          "text": "Grant reasonable cause because failed FTA eligibility proves that an unavoidable event occurred."
+        },
+        {
+          "key": "C",
+          "text": "Treat failed history as a complete legal prohibition against any other relief route."
+        },
+        {
+          "key": "D",
+          "text": "Evaluate other supported relief grounds under the rules governing the particular penalty."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Reasonable cause",
+      "stem": "For an ordinary late-filing penalty, which description best expresses the reasonable-cause inquiry?",
+      "explanation": "Reasonable cause requires a fact-specific causal explanation, not merely a sympathetic event. The taxpayer’s ordinary care and prudence and the reason compliance remained impossible are central.",
+      "source_ids": [
+        "PEN_RC_REG",
+        "PEN_RC_PUBLIC"
+      ],
+      "difficulty": "foundation",
+      "id": "Q045",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assess whether ordinary care and prudence still left the taxpayer unable to comply."
+        },
+        {
+          "key": "B",
+          "text": "Assess whether any inconvenience occurred, regardless of its connection to the missed deadline."
+        },
+        {
+          "key": "C",
+          "text": "Assess whether another taxpayer once received relief, regardless of distinct facts and events."
+        },
+        {
+          "key": "D",
+          "text": "Assess whether the taxpayer dislikes the penalty and would prefer a smaller balance."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Reasonable-cause evidence",
+      "stem": "A serious illness is offered as the reason for a late return. Which evidence most directly supports evaluation?",
+      "explanation": "The relevant issue is how the illness affected compliance during the required period, what alternatives existed, and when compliance became possible. A diagnosis alone is not an automatic grant.",
+      "source_ids": [
+        "PEN_RC_PUBLIC",
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q046",
+      "options": [
+        {
+          "key": "A",
+          "text": "A list of unrelated medical expenses without explaining who could perform the filing duties."
+        },
+        {
+          "key": "B",
+          "text": "A general assertion that illness always cancels every tax penalty assessed during that year."
+        },
+        {
+          "key": "C",
+          "text": "A dated account connecting incapacity, filing duties, available assistance, and later corrective action."
+        },
+        {
+          "key": "D",
+          "text": "An undated statement naming an illness without connecting its effects to the filing deadline."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Reasonable-cause evidence",
+      "stem": "A fire destroyed accounting records shortly before a filing deadline. What further inquiry is especially useful?",
+      "explanation": "Loss of records can support relief depending on the facts. The causal effect, efforts to obtain or reconstruct information, and promptness of compliance remain relevant.",
+      "source_ids": [
+        "PEN_RC_PUBLIC",
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q047",
+      "options": [
+        {
+          "key": "A",
+          "text": "Refuse to consider the event because property damage can never explain a compliance failure."
+        },
+        {
+          "key": "B",
+          "text": "Review recovery efforts, available substitute records, deadline effects, and the later filing timeline."
+        },
+        {
+          "key": "C",
+          "text": "Assume every tax obligation vanished because physical records were destroyed before the filing deadline."
+        },
+        {
+          "key": "D",
+          "text": "Treat the fire’s existence as sufficient proof without examining any effort to regain records."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Reasonable cause",
+      "stem": "A taxpayer states only, “I did not have enough money to pay.” Which response is appropriate?",
+      "explanation": "Insufficient funds by itself generally is not reasonable cause for failure to pay or deposit. Additional facts may matter, and a filing obligation is distinct from the ability to pay.",
+      "source_ids": [
+        "PEN_RC_PUBLIC"
+      ],
+      "difficulty": "foundation",
+      "id": "Q048",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lack of funds alone permanently eliminates the underlying tax and all interest charged afterward."
+        },
+        {
+          "key": "B",
+          "text": "Lack of funds alone requires relief from every payment and deposit penalty without review."
+        },
+        {
+          "key": "C",
+          "text": "Lack of funds alone proves that filing the return was legally impossible by its deadline."
+        },
+        {
+          "key": "D",
+          "text": "Lack of funds alone is insufficient; review the other facts and reasonable compliance efforts."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Reasonable cause",
+      "stem": "A taxpayer describes an ordinary oversight but supplies no further facts. How should the explanation be evaluated?",
+      "explanation": "Mistakes and oversights ordinarily do not suffice by themselves, although further facts can affect the reasonable-cause inquiry. The conclusion should reflect the evidence actually available.",
+      "source_ids": [
+        "PEN_RC_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q049",
+      "options": [
+        {
+          "key": "A",
+          "text": "An oversight alone converts the assessed penalty into interest that cannot ever be disputed."
+        },
+        {
+          "key": "B",
+          "text": "An oversight alone generally does not establish relief; additional relevant circumstances require review."
+        },
+        {
+          "key": "C",
+          "text": "An oversight alone proves fraud and eliminates the need for any further factual investigation."
+        },
+        {
+          "key": "D",
+          "text": "An oversight alone automatically establishes relief because all missed deadlines result from human error."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Professional reliance",
+      "stem": "A taxpayer delegated a known filing deadline to a preparer, who simply forgot. Which statement is generally correct?",
+      "explanation": "Ordinary reliance on another person to perform a known filing duty generally does not excuse lateness. This differs from a properly supported claim based on substantive tax advice.",
+      "source_ids": [
+        "PEN_RC_PUBLIC"
+      ],
+      "difficulty": "foundation",
+      "id": "Q050",
+      "options": [
+        {
+          "key": "A",
+          "text": "Delegating the filing task alone always creates eligibility for every administrative waiver available."
+        },
+        {
+          "key": "B",
+          "text": "Delegating the filing task alone ordinarily does not establish reasonable cause for lateness."
+        },
+        {
+          "key": "C",
+          "text": "Delegating the filing task alone always transfers the taxpayer’s legal filing responsibility completely."
+        },
+        {
+          "key": "D",
+          "text": "Delegating the filing task alone guarantees cancellation of the unpaid tax and associated interest."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Professional reliance",
+      "stem": "For an accuracy-related penalty, which circumstance most supports reviewing a professional-advice defense?",
+      "explanation": "Reasonable reliance depends on all circumstances. Relevant expertise, full facts, reasonable assumptions, and genuine reliance matter; a paid opinion is not automatically sufficient.",
+      "source_ids": [
+        "PEN_6664_REG"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q051",
+      "options": [
+        {
+          "key": "A",
+          "text": "A favorable conclusion, known false assumptions, and deliberate omission of transaction facts are documented."
+        },
+        {
+          "key": "B",
+          "text": "An impressive letterhead, no relevant expertise, and a promised result without analysis are documented."
+        },
+        {
+          "key": "C",
+          "text": "A substantial advisory fee, incomplete factual disclosure, and a predetermined reporting outcome are documented."
+        },
+        {
+          "key": "D",
+          "text": "Relevant expertise, full factual disclosure, reasonable advice, and actual good-faith reliance are documented."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Professional reliance",
+      "stem": "A file says only, “My adviser told me this was fine.” What is the most useful next step?",
+      "explanation": "A vague reliance statement leaves essential facts unresolved. The advice and circumstances must be examined before evaluating whether reliance was reasonable and in good faith.",
+      "source_ids": [
+        "PEN_6664_REG"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q052",
+      "options": [
+        {
+          "key": "A",
+          "text": "Grant relief promptly because naming an adviser proves every reasonable-cause requirement without question."
+        },
+        {
+          "key": "B",
+          "text": "Replace the missing advice with assumptions favoring the taxpayer’s preferred factual account."
+        },
+        {
+          "key": "C",
+          "text": "Obtain the advice, relevant disclosures, qualifications, timing, and evidence of actual reliance."
+        },
+        {
+          "key": "D",
+          "text": "Reject relief permanently because professional advice can never matter for accuracy-related penalties."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Professional reliance",
+      "stem": "A taxpayer knowingly withholds a material transaction fact from the adviser. How does that affect the reliance claim?",
+      "explanation": "The advice must consider pertinent facts and circumstances. A taxpayer cannot establish the minimum requirements by knowingly withholding information relevant to the proper treatment.",
+      "source_ids": [
+        "PEN_6664_REG"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q053",
+      "options": [
+        {
+          "key": "A",
+          "text": "It undermines the required showing that the advice considered all pertinent facts."
+        },
+        {
+          "key": "B",
+          "text": "It makes the opinion binding precedent regardless of the omitted fact’s legal significance."
+        },
+        {
+          "key": "C",
+          "text": "It eliminates every disclosure responsibility once the retained adviser accepts the payment."
+        },
+        {
+          "key": "D",
+          "text": "It strengthens reliance because the adviser’s favorable answer remains formally in writing."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Accuracy-related penalties",
+      "stem": "Which factor generally carries major importance in a reasonable-cause and good-faith analysis under section 6664?",
+      "explanation": "The regulation generally treats the taxpayer’s effort to assess the proper liability as the most important factor, within a case-by-case review of all pertinent circumstances.",
+      "source_ids": [
+        "PEN_6664_REG"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q054",
+      "options": [
+        {
+          "key": "A",
+          "text": "The taxpayer’s ability to find another return containing the same unsupported reporting position."
+        },
+        {
+          "key": "B",
+          "text": "The taxpayer’s documented effort to determine and report the proper tax liability accurately."
+        },
+        {
+          "key": "C",
+          "text": "The taxpayer’s confidence that an examination is unlikely to discover the reporting position."
+        },
+        {
+          "key": "D",
+          "text": "The taxpayer’s preference for a smaller payment regardless of available legal guidance."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Written agency advice",
+      "stem": "Which combination most directly matches section 6404(f) relief for erroneous written agency advice?",
+      "explanation": "Section 6404(f) concerns penalties attributable to official erroneous written advice responding to a specific written request, reasonably relied upon, without inadequate or inaccurate taxpayer information causing the issue.",
+      "source_ids": [
+        "PEN_6404_STAT"
+      ],
+      "difficulty": "advanced",
+      "id": "Q055",
+      "options": [
+        {
+          "key": "A",
+          "text": "A specific written request, adequate facts, official written advice, and reasonable reliance."
+        },
+        {
+          "key": "B",
+          "text": "A third-party letter, hidden facts, unofficial speculation, and a preferred tax outcome."
+        },
+        {
+          "key": "C",
+          "text": "A casual oral inquiry, omitted facts, private commentary, and reliance after filing."
+        },
+        {
+          "key": "D",
+          "text": "A general website excerpt, inaccurate facts, private advice, and no actual reliance."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Estimated-tax penalties",
+      "stem": "An individual requests ordinary reasonable-cause relief from a section 6654 estimated-tax penalty. What is the correct starting point?",
+      "explanation": "Section 6654 does not provide a general reasonable-cause exception. It does contain specified exceptions and waivers, including particular unusual-circumstance and retirement or disability provisions.",
+      "source_ids": [
+        "PEN_6654_STAT",
+        "PEN_RC_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q056",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reject every possible waiver because section 6654 never allows relief under any circumstances."
+        },
+        {
+          "key": "B",
+          "text": "Grant relief automatically because every addition to tax has an identical reasonable-cause exception."
+        },
+        {
+          "key": "C",
+          "text": "Apply legacy FTA automatically because estimated-tax penalties are included among its eligible penalties."
+        },
+        {
+          "key": "D",
+          "text": "Review the statute’s particular exceptions and waivers rather than applying a general excuse."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Estimated-tax penalties",
+      "stem": "A taxpayer retired after attaining age 62 during the preceding tax year. What else matters for the section 6654 retirement waiver?",
+      "explanation": "The statutory retirement route applies to retirement after age 62 in the relevant year or preceding year and requires reasonable cause rather than willful neglect for the underpayment.",
+      "source_ids": [
+        "PEN_6654_STAT"
+      ],
+      "difficulty": "advanced",
+      "id": "Q057",
+      "options": [
+        {
+          "key": "A",
+          "text": "The taxpayer must show only retirement because age alone automatically guarantees the waiver."
+        },
+        {
+          "key": "B",
+          "text": "The taxpayer must prove that every federal tax obligation ended permanently upon retirement."
+        },
+        {
+          "key": "C",
+          "text": "The underpayment must be due to reasonable cause rather than any willful neglect."
+        },
+        {
+          "key": "D",
+          "text": "The taxpayer must have retired at least ten years before estimated payments became due."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Estimated-tax penalties",
+      "stem": "Under section 6654(e)(3)(B), how does becoming disabled differ from the retirement condition?",
+      "explanation": "The statutory alternatives are retirement after attaining 62 or becoming disabled. Disability still must occur in the relevant or preceding year, and the underpayment must satisfy the stated cause standard.",
+      "source_ids": [
+        "PEN_6654_STAT"
+      ],
+      "difficulty": "advanced",
+      "id": "Q058",
+      "options": [
+        {
+          "key": "A",
+          "text": "The disability alternative requires retirement after age 62 before any timing requirements can be considered."
+        },
+        {
+          "key": "B",
+          "text": "The disability alternative has no stated age-62 threshold, but timing and cause requirements remain."
+        },
+        {
+          "key": "C",
+          "text": "The disability alternative removes every timing requirement and always waives all future estimated-tax penalties."
+        },
+        {
+          "key": "D",
+          "text": "The disability alternative applies only after ten consecutive years without any earned taxable income."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Estimated-tax penalties",
+      "stem": "What is the statutory focus of the section 6654 waiver for casualty, disaster, or other unusual circumstances?",
+      "explanation": "The statute requires a determination that, because of casualty, disaster, or other unusual circumstances, imposing the addition would be against equity and good conscience. A qualifying event is not an automatic waiver.",
+      "source_ids": [
+        "PEN_6654_STAT"
+      ],
+      "difficulty": "advanced",
+      "id": "Q059",
+      "options": [
+        {
+          "key": "A",
+          "text": "Whether imposing the addition would be against equity and good conscience under the circumstances."
+        },
+        {
+          "key": "B",
+          "text": "Whether any unfavorable event occurred, regardless of its connection to the estimated-tax payment shortfall."
+        },
+        {
+          "key": "C",
+          "text": "Whether the taxpayer previously requested relief, regardless of the specific statutory requirements for waiver."
+        },
+        {
+          "key": "D",
+          "text": "Whether the taxpayer received a late-payment notice, regardless of the reason estimated payments were missed."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Information-return penalties",
+      "stem": "What statutory starting point applies to a reasonable-cause waiver for covered information-return penalties?",
+      "explanation": "Section 6724(a) provides the reasonable-cause and no-willful-neglect waiver standard for the covered part. The applicable regulations and required compliance steps must also be examined.",
+      "source_ids": [
+        "PEN_6724_STAT"
+      ],
+      "difficulty": "advanced",
+      "id": "Q060",
+      "options": [
+        {
+          "key": "A",
+          "text": "Section 6724 requires cancellation of the underlying tax whenever reporting information is later corrected."
+        },
+        {
+          "key": "B",
+          "text": "Section 6724 requires FTA approval before any information-return penalty can receive statutory relief."
+        },
+        {
+          "key": "C",
+          "text": "Section 6724 requires reasonable cause rather than willful neglect, with applicable implementing rules."
+        },
+        {
+          "key": "D",
+          "text": "Section 6724 requires automatic relief whenever the taxpayer labels the error unintentional or small."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Reasonable cause",
+      "stem": "A taxpayer deliberately ignored a known filing duty without an external obstacle. Which fact most directly weakens reasonable cause?",
+      "explanation": "Deliberate disregard of a known duty is inconsistent with an explanation based on ordinary care and prudence. The outcome still must be tied to the governing penalty and actual facts.",
+      "source_ids": [
+        "PEN_RC_REG"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q061",
+      "options": [
+        {
+          "key": "A",
+          "text": "The taxpayer reviewed applicable official sources and preserved the dates of the relevant documents."
+        },
+        {
+          "key": "B",
+          "text": "The deliberate noncompliance contradicts the showing of ordinary care and absence of willful neglect."
+        },
+        {
+          "key": "C",
+          "text": "The taxpayer kept copies of the return and preserved the original agency penalty notice."
+        },
+        {
+          "key": "D",
+          "text": "The taxpayer identified the exact statutory penalty and recorded the affected tax filing period."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Reasonable-cause evidence",
+      "stem": "Why does the interval between an obstacle ending and eventual filing matter to a reasonable-cause claim?",
+      "explanation": "The review considers whether the taxpayer corrected the failure within a reasonable time after the obstacle ended. The explanation should cover the relevant period rather than only its beginning.",
+      "source_ids": [
+        "PEN_FTA_IRM",
+        "PEN_RC_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q062",
+      "options": [
+        {
+          "key": "A",
+          "text": "An unexplained delay after the obstacle ended can weaken the asserted causal explanation."
+        },
+        {
+          "key": "B",
+          "text": "Any later filing automatically proves that timely filing was possible throughout the entire period."
+        },
+        {
+          "key": "C",
+          "text": "A longer unexplained delay always improves the claim by showing the taxpayer remained dissatisfied."
+        },
+        {
+          "key": "D",
+          "text": "The interval never matters because mentioning an obstacle always excuses every later filing delay."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Reasonable-cause evidence",
+      "stem": "A business relies on the absence of its usual bookkeeper to explain late filing. What additional fact is especially relevant?",
+      "explanation": "For a business, the inquiry concerns those with authority and responsibility for compliance. Available substitutes and ordinary precautions can affect whether the absence prevented compliance despite due care.",
+      "source_ids": [
+        "PEN_RC_PUBLIC",
+        "PEN_FTA_IRM"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q063",
+      "options": [
+        {
+          "key": "A",
+          "text": "Whether responsible management could reasonably obtain assistance or perform the required compliance duties."
+        },
+        {
+          "key": "B",
+          "text": "Whether the business dislikes penalties, regardless of available staffing or alternative filing arrangements."
+        },
+        {
+          "key": "C",
+          "text": "Whether the absent worker was popular, regardless of management’s ability to meet filing duties."
+        },
+        {
+          "key": "D",
+          "text": "Whether another business once received relief, regardless of its staffing and different factual circumstances."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Filing and payment",
+      "stem": "A taxpayer obtained an ordinary extension of time to file an individual income tax return. What should the researcher remember?",
+      "explanation": "An ordinary filing extension does not generally extend time to pay. The filing and payment obligations must be analyzed separately when reviewing penalties.",
+      "source_ids": [
+        "PEN_EXTENSION_PUBLIC"
+      ],
+      "difficulty": "foundation",
+      "id": "Q064",
+      "options": [
+        {
+          "key": "A",
+          "text": "A filing extension generally removes every need to estimate the tax payable by the deadline."
+        },
+        {
+          "key": "B",
+          "text": "A filing extension generally does not extend the ordinary deadline for paying the tax."
+        },
+        {
+          "key": "C",
+          "text": "A filing extension generally cancels all tax and interest until the extended filing date."
+        },
+        {
+          "key": "D",
+          "text": "A filing extension generally proves reasonable cause for every subsequent failure to pay tax."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Automatic Exemption from Penalty",
+      "stem": "Under the 2026 AEP guidance, how is relief ordinarily delivered for an eligible original return meeting all requirements?",
+      "explanation": "AEP generally operates during original return processing and prevents assessment of covered penalties for qualifying returns. It is limited administrative relief, not cancellation of all obligations.",
+      "source_ids": [
+        "PEN_AEP_FACT",
+        "PEN_AEP_UPDATE"
+      ],
+      "difficulty": "foundation",
+      "id": "Q065",
+      "options": [
+        {
+          "key": "A",
+          "text": "Underlying tax is eliminated automatically whenever the taxpayer has three years of timely compliance."
+        },
+        {
+          "key": "B",
+          "text": "Covered penalties are always assessed first and removed only after a written hardship petition."
+        },
+        {
+          "key": "C",
+          "text": "Every penalty is canceled automatically whenever an original return arrives after its due date."
+        },
+        {
+          "key": "D",
+          "text": "Covered penalties are prevented during original return processing without a separate taxpayer application."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "AEP transition",
+      "stem": "An eligible original return has an original due date on or after January 1, 2027. Which route replaces ordinary FTA under the announced policy?",
+      "explanation": "The procedural update and fact sheet state that AEP replaces FTA for eligible original returns with original due dates of January 1, 2027 or later. Other relief must still be considered under its own rules.",
+      "source_ids": [
+        "PEN_AEP_UPDATE",
+        "PEN_AEP_FACT"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q066",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reasonable cause becomes automatic because all later penalties are barred without reviewing the facts."
+        },
+        {
+          "key": "B",
+          "text": "No relief can ever apply because the transition ends every statutory and administrative exception."
+        },
+        {
+          "key": "C",
+          "text": "AEP replaces ordinary FTA for these returns, subject to its own eligibility requirements."
+        },
+        {
+          "key": "D",
+          "text": "FTA remains the ordinary route forever because the original administrative policy cannot change."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "AEP transition",
+      "stem": "An eligible 2025 annual return was processed before AEP began and received a penalty assessment. What may the taxpayer do during the transition?",
+      "explanation": "FTA remains available for eligible 2025 annual returns and 2026 quarterly returns that did not receive AEP consideration during the transition. The taxpayer can contact the agency regarding the assessed penalty.",
+      "source_ids": [
+        "PEN_AEP_UPDATE",
+        "PEN_AEP_FACT"
+      ],
+      "difficulty": "advanced",
+      "id": "Q067",
+      "options": [
+        {
+          "key": "A",
+          "text": "Treat the assessment as permanently final because the transition eliminates every earlier relief route."
+        },
+        {
+          "key": "B",
+          "text": "Assume AEP automatically erases the assessment without checking whether original processing considered relief."
+        },
+        {
+          "key": "C",
+          "text": "Request administrative FTA review if eligible because that return did not receive AEP consideration."
+        },
+        {
+          "key": "D",
+          "text": "Request cancellation of all underlying tax because AEP applies retroactively to every assessed amount."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "AEP timing",
+      "stem": "Which filing-time measurement does the AEP procedural update use for an otherwise eligible original return?",
+      "explanation": "The AEP update measures the filing window from the original return due date. An extension of time to file does not move that reference point.",
+      "source_ids": [
+        "PEN_AEP_UPDATE"
+      ],
+      "difficulty": "foundation",
+      "id": "Q068",
+      "options": [
+        {
+          "key": "A",
+          "text": "The return must be filed within three years of the latest extended filing date."
+        },
+        {
+          "key": "B",
+          "text": "The return must be filed within three years of its original return due date."
+        },
+        {
+          "key": "C",
+          "text": "The return must be filed within three years of the taxpayer’s first relief request."
+        },
+        {
+          "key": "D",
+          "text": "The return must be filed within three years of the first penalty collection notice."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "AEP history",
+      "stem": "For a quarterly filer, what is the ordinary AEP compliance-history period described in the official guidance?",
+      "explanation": "The three-year history requirement corresponds to twelve consecutive quarters for quarterly filers. Return-type and penalty-history requirements still must be satisfied.",
+      "source_ids": [
+        "PEN_AEP_UPDATE",
+        "PEN_AEP_FACT"
+      ],
+      "difficulty": "foundation",
+      "id": "Q069",
+      "options": [
+        {
+          "key": "A",
+          "text": "The single prior quarter only, because quarterly filing replaces the three-year history requirement."
+        },
+        {
+          "key": "B",
+          "text": "The twelve consecutive prior quarters, with the relevant return and penalty conditions checked."
+        },
+        {
+          "key": "C",
+          "text": "The four consecutive prior quarters, with every earlier filing and payment condition disregarded."
+        },
+        {
+          "key": "D",
+          "text": "The taxpayer’s entire business lifetime, because any old penalty permanently prevents administrative relief."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "AEP implementation",
+      "stem": "What special implementation point does the AEP update identify for an otherwise eligible Form CT-1?",
+      "explanation": "The update lists this return as eligible but explains that automatic programming is unavailable. Taxpayers may contact the agency for manual consideration under the specified procedures.",
+      "source_ids": [
+        "PEN_AEP_UPDATE"
+      ],
+      "difficulty": "advanced",
+      "id": "Q070",
+      "options": [
+        {
+          "key": "A",
+          "text": "Relief is legally prohibited because that return is excluded from every eligible return list."
+        },
+        {
+          "key": "B",
+          "text": "Only a court may consider relief because agency personnel lack any manual adjustment authority."
+        },
+        {
+          "key": "C",
+          "text": "Relief is automatic for every filer because that return bypasses all historical compliance requirements."
+        },
+        {
+          "key": "D",
+          "text": "Manual consideration may be needed because automatic relief during original processing is not programmed."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "AEP scope",
+      "stem": "Which statement correctly limits AEP’s penalty coverage?",
+      "explanation": "AEP applies to listed failure-to-file, failure-to-pay, and failure-to-deposit provisions. The fact sheet expressly distinguishes accuracy-related, information-return, and daily delinquency penalties from covered penalties.",
+      "source_ids": [
+        "PEN_AEP_FACT",
+        "PEN_AEP_UPDATE"
+      ],
+      "difficulty": "foundation",
+      "id": "Q071",
+      "options": [
+        {
+          "key": "A",
+          "text": "AEP covers every information-return penalty whenever the return concerns the same tax year."
+        },
+        {
+          "key": "B",
+          "text": "AEP covers every daily delinquency penalty whenever a taxpayer supplies an original return."
+        },
+        {
+          "key": "C",
+          "text": "AEP covers every accuracy-related penalty whenever the taxpayer had three timely prior returns."
+        },
+        {
+          "key": "D",
+          "text": "AEP covers specified filing, payment, and deposit penalties, rather than accuracy-related penalties."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "AEP history",
+      "stem": "Prior relevant penalties received AEP relief or reasonable-cause relief. How does the update distinguish their effects within the lookback?",
+      "explanation": "The AEP criteria distinguish reversals for reasonable cause or agency error from relief based on AEP, FTA, or tolerance. The documented reason for prior relief matters.",
+      "source_ids": [
+        "PEN_AEP_UPDATE"
+      ],
+      "difficulty": "advanced",
+      "id": "Q072",
+      "options": [
+        {
+          "key": "A",
+          "text": "Both relief entries prohibit relief because any prior assessed penalty permanently spoils compliance history."
+        },
+        {
+          "key": "B",
+          "text": "A prior AEP relief entry blocks eligibility; a reasonable-cause entry can preserve clean history."
+        },
+        {
+          "key": "C",
+          "text": "Both relief entries guarantee eligibility because every earlier waiver has the same legal effect."
+        },
+        {
+          "key": "D",
+          "text": "A prior AEP entry assures relief; a reasonable-cause entry always prevents any administrative waiver."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Relief procedure",
+      "stem": "Which practical starting point is appropriate when an assessed penalty appears eligible for relief?",
+      "explanation": "The actual notice identifies the penalty, account, and applicable procedural instructions. Research and model output do not suspend deadlines or collection consequences.",
+      "source_ids": [
+        "PEN_RELIEF_PUBLIC"
+      ],
+      "difficulty": "foundation",
+      "id": "Q073",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wait indefinitely because requesting research automatically prevents interest from accruing on unpaid balances."
+        },
+        {
+          "key": "B",
+          "text": "Use an unrelated notice because every penalty follows an identical administrative response procedure."
+        },
+        {
+          "key": "C",
+          "text": "Read the actual penalty notice and follow its applicable contact and written response instructions."
+        },
+        {
+          "key": "D",
+          "text": "Ignore the notice because an informal research score automatically suspends all response deadlines."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Relief procedure",
+      "stem": "The agency cannot approve a penalty-relief request by telephone. Which next step is described in its general guidance?",
+      "explanation": "The general relief page describes written requests, including Form 843. The proper route and current form instructions should be checked for the particular penalty and account.",
+      "source_ids": [
+        "PEN_RELIEF_PUBLIC"
+      ],
+      "difficulty": "foundation",
+      "id": "Q074",
+      "options": [
+        {
+          "key": "A",
+          "text": "A written request may be appropriate, including Form 843 under the applicable penalty instructions."
+        },
+        {
+          "key": "B",
+          "text": "The denial automatically creates a court petition without any further procedural action required."
+        },
+        {
+          "key": "C",
+          "text": "Every disputed return must be refiled unchanged because telephone review never permits written follow-up."
+        },
+        {
+          "key": "D",
+          "text": "The taxpayer must stop preserving records because supporting evidence cannot accompany written requests."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Refund limitations",
+      "stem": "Why must a research file distinguish a refund-claim deadline from the related refund lookback limitation?",
+      "explanation": "Section 6511 contains both time limits for filing a claim and limitations on the amount recoverable. Filing a timely claim does not by itself establish that every payment is refundable.",
+      "source_ids": [
+        "PEN_6511_STAT"
+      ],
+      "difficulty": "advanced",
+      "id": "Q075",
+      "options": [
+        {
+          "key": "A",
+          "text": "A lookback rule always replaces every filing deadline once the taxpayer submits any written claim."
+        },
+        {
+          "key": "B",
+          "text": "A timely claim always recovers every payment ever made regardless of separate statutory limits."
+        },
+        {
+          "key": "C",
+          "text": "A refund request automatically extends every limitation period until the agency finishes its full review."
+        },
+        {
+          "key": "D",
+          "text": "A timely refund claim can still recover only amounts allowed by the applicable lookback rule."
+        }
+      ],
+      "answer": "D"
+    },
+    {
+      "topic": "Penalty interest",
+      "stem": "A penalty is reduced after relief is granted. What ordinarily happens to interest attributable to that penalty?",
+      "explanation": "The public guidance explains that interest related to an abated penalty is reduced or removed correspondingly. Interest on the underlying unpaid tax is a separate issue.",
+      "source_ids": [
+        "PEN_AEP_PUBLIC",
+        "PEN_RC_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q076",
+      "options": [
+        {
+          "key": "A",
+          "text": "Related penalty interest is adjusted, while interest on unpaid underlying tax remains separately analyzed."
+        },
+        {
+          "key": "B",
+          "text": "All interest on unpaid underlying tax disappears automatically, even when that tax remains legally due."
+        },
+        {
+          "key": "C",
+          "text": "The entire underlying tax disappears automatically because any successful penalty claim cancels the account."
+        },
+        {
+          "key": "D",
+          "text": "No related interest can change because penalty relief never affects any calculation of accrued interest."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Assessment review",
+      "stem": "A penalty notice appears to use an incorrect filing date. What should occur before relying only on an excuse-based relief request?",
+      "explanation": "A factual or calculation error should be examined directly. Correction of an erroneous assessment and discretionary or cause-based relief are analytically different routes.",
+      "source_ids": [
+        "PEN_RELIEF_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q077",
+      "options": [
+        {
+          "key": "A",
+          "text": "Invent a hardship explanation because penalty relief always requires an extraordinary personal emergency."
+        },
+        {
+          "key": "B",
+          "text": "Verify the assessment facts and request correction if the penalty was calculated incorrectly."
+        },
+        {
+          "key": "C",
+          "text": "Accept the incorrect date because factual errors never allow correction of an assessed penalty."
+        },
+        {
+          "key": "D",
+          "text": "Change the retained records because the agency’s notice must be made factually consistent afterward."
+        }
+      ],
+      "answer": "B"
+    },
+    {
+      "topic": "Procedural safeguards",
+      "stem": "An educational matrix does not contain the taxpayer’s actual notice date or applicable appeal instructions. What should its output say?",
+      "explanation": "Deadline conclusions require the specific notice, procedural posture, applicable law, and service or mailing facts. An educational matrix should expose that limitation instead of manufacturing a universal date.",
+      "source_ids": [
+        "PEN_RELIEF_PUBLIC"
+      ],
+      "difficulty": "intermediate",
+      "id": "Q078",
+      "options": [
+        {
+          "key": "A",
+          "text": "State a universal deadline because all tax penalties have one identical administrative review timetable."
+        },
+        {
+          "key": "B",
+          "text": "Treat the research completion date as the legal date from which every appeal period begins."
+        },
+        {
+          "key": "C",
+          "text": "Identify the missing procedural facts and require separate verification of the actual response deadline."
+        },
+        {
+          "key": "D",
+          "text": "State that no deadline applies because educational tools cannot be responsible for missed responses."
+        }
+      ],
+      "answer": "C"
+    },
+    {
+      "topic": "Substantial authority",
+      "stem": "Which FAQ statement matches the official guidance on taxpayer reliance?",
+      "explanation": "The official reliance page specifically treats FAQs in a Fact Sheet linked to an agency news release as authority for substantial-authority purposes. This should not be confused with universally binding precedent.",
+      "source_ids": [
+        "AUTH-FAQ",
+        "AUTH-6662-4"
+      ],
+      "difficulty": "advanced",
+      "id": "Q079",
+      "options": [
+        {
+          "key": "A",
+          "text": "FAQs in a Fact Sheet linked to an official news release can support substantial-authority analysis."
+        },
+        {
+          "key": "B",
+          "text": "No FAQ can ever count as authority in any substantial-authority analysis under any circumstance."
+        },
+        {
+          "key": "C",
+          "text": "Every published FAQ becomes a personal private ruling whenever another taxpayer claims reliance upon it."
+        },
+        {
+          "key": "D",
+          "text": "Every informal FAQ automatically binds courts and overrides inconsistent statutes and valid final regulations."
+        }
+      ],
+      "answer": "A"
+    },
+    {
+      "topic": "Taxpayer-specific determinations",
+      "stem": "How should a written ruling issued to the taxpayer be distinguished from a ruling issued to someone else?",
+      "explanation": "The substantial-authority regulation contains a taxpayer-specific written-determination rule with conditions and limitations. It is distinct from both general nonprecedential status and the listing of qualifying post-1976 rulings.",
+      "source_ids": [
+        "AUTH-6662-4",
+        "AUTH-6110"
+      ],
+      "difficulty": "advanced",
+      "id": "Q080",
+      "options": [
+        {
+          "key": "A",
+          "text": "Review the taxpayer’s special rule, factual accuracy, continuing validity, and any applicable revocation limits."
+        },
+        {
+          "key": "B",
+          "text": "Assume the taxpayer’s ruling remains effective forever even after material facts change or revocation occurs."
+        },
+        {
+          "key": "C",
+          "text": "Ignore the taxpayer’s own ruling because individualized written determinations can never affect penalty analysis."
+        },
+        {
+          "key": "D",
+          "text": "Treat both rulings as binding nationwide precedent regardless of their recipients or continuing validity."
+        }
+      ],
+      "answer": "A"
+    }
+  ]
+}

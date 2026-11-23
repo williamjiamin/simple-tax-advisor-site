@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TY2025 EA Workflow, Sec. 704/754 &amp; Tax Procedure Lab | Simple Tax Advisor</title>
+  <meta name="description" content="Educational US federal individual, Sec. 704(d)/754 partnership loss, Sec. 199A QBI, MACRS, OIC, and Circular 230 study plates authored by LIPAI WANG.">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LearningResource",
+    "name": "TY2025 EA Workflow, Partnership Loss & Tax Procedure Lab",
+    "author": { "@type": "Person", "name": "LIPAI WANG" },
+    "teaches": ["IRC Sec. 704(d) & 754 Basis", "IRC Sec. 199A QBI", "Circular 230 Form 2848 vs Form 8821", "Offer in Compromise RCP"]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <span class="brand">Simple Tax Advisor · EA &amp; Procedure Atlas</span>
+      <a href="index.html">Comparative Tax Hub</a>
+      <a href="tax-research-verifier.html">Citation &amp; AEP Relief Verifier</a>
+      <a href="../../index.html">App Overview</a>
+    </nav>
+    <section class="hero">
+      <p class="eyebrow">INDIVIDUAL WORKFLOW · PASS-THROUGH · CIRCULAR 230</p>
+      <h1>US Federal Tax Workflow &amp; Procedure Lab</h1>
+      <p class="subtitle">26 vector teaching plates covering Form 1040, Sec. 704(d)/754/465/469 loss gates, Sec. 199A QBI, MACRS, CDP hearings, OIC, Form 8857, and Form 2848 representation scope.</p>
+      <p class="notice">Illustrative study models only — not tax preparation, legal representation, or IRS advice. Companion study mirrors: <a href="https://acadifi.com/labs" target="_blank" rel="noreferrer">AcadiFi Labs</a> · <a href="https://financecerttax.com/labs" target="_blank" rel="noreferrer">FinanceCertTax Labs</a> · <a href="https://robotforge.org/labs" target="_blank" rel="noreferrer">RobotForge STEM</a> · KDP Series by LIPAI WANG.</p>
+    </section>
+  </header>
+  <main>
+    <section>
+      <h2>Sec. 704(d) / Sec. 754 Partnership Loss Gate &amp; Sec. 465 / 469</h2>
+      <div style="display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(160px,1fr))">
+        <label>K-1 Loss ($)<input id="loss-val" type="number" value="4800"></label>
+        <label>Outside Basis ($)<input id="basis-val" type="number" value="3600"></label>
+        <label>Sec. 754 Step-Up ($)<input id="sec754-val" type="number" value="0"></label>
+        <label>At-Risk Limit ($)<input id="atrisk-val" type="number" value="2500"></label>
+        <label>Passive Income ($)<input id="passive-val" type="number" value="1200"></label>
+      </div>
+      <div id="k1-output" class="results" aria-live="polite" style="margin-top:12px"></div>
+    </section>
+
+    <section>
+      <h2>Offer in Compromise (OIC) Collection Potential</h2>
+      <div style="display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))">
+        <label>Asset Equity ($)<input id="oic-equity" type="number" value="9800"></label>
+        <label>Monthly Disposable ($)<input id="oic-monthly" type="number" value="475"></label>
+        <label>Offer Mode
+          <select id="oic-mode">
+            <option value="lump_sum">Lump Sum (12x monthly, 20% down)</option>
+            <option value="periodic">Periodic (24x monthly)</option>
+          </select>
+        </label>
+      </div>
+      <div id="oic-output" class="results" aria-live="polite" style="margin-top:12px"></div>
+    </section>
+
+    <section>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <h2>26 Modeled Workflow &amp; Procedure Plates</h2>
+        <select id="atlas-filter" aria-label="Filter workflow plates">
+          <option value="all">All 26 Plates (TY2025 + Procedure)</option>
+          <option value="b08">14 TY2025 Workflow &amp; Pass-Through Plates</option>
+          <option value="b09">12 Tax Procedure &amp; Circular 230 Plates</option>
+        </select>
+      </div>
+      <div id="atlas-grid" style="display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));margin-top:14px"></div>
+    </section>
+  </main>
+  <footer>Authored by LIPAI WANG · Local educational companion · <a href="../data/d32_tax_workflow_atlas.json">d32_tax_workflow_atlas.json</a></footer>
+  <script type="module" src="ea-procedure.js"></script>
+</body>
+</html>

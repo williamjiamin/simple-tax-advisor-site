@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "author": "LIPAI WANG",
+  "research_as_of": "2026-11-22",
+  "generated_from": "Canonical authority model and original relief reference matrix",
+  "cards": [
+    {
+      "title": "Define the research question",
+      "text": "Record the exact obligation, period, facts, forum, and opposing position before comparing authorities. Editorial scores organize reading; they do not decide the law.",
+      "source_ids": [
+        "AUTH-6662-4",
+        "AUTH-7482"
+      ]
+    },
+    {
+      "title": "Keep judicial analysis alongside the legal text",
+      "text": "A judicial holding has a separate jurisdiction and precedential analysis. A private ruling cannot be placed above a court simply because it appears earlier in a document list.",
+      "source_ids": [
+        "AUTH-6110",
+        "AUTH-706",
+        "AUTH-TAXCOURT-OPINIONS"
+      ]
+    },
+    {
+      "title": "Private advice and penalty standards differ",
+      "text": "Private determinations are generally nonprecedential. Qualifying private rulings and technical advice can still be relevant to a distinct substantial-authority inquiry.",
+      "source_ids": [
+        "AUTH-6110",
+        "AUTH-6662-4"
+      ]
+    },
+    {
+      "title": "Check the 2026 administrative-relief transition",
+      "text": "AEP begins with eligible annual 2025 and quarterly 2026 original returns. Eligible original returns due from January 1, 2027 use AEP rather than FTA. Verify processing and account facts.",
+      "source_ids": [
+        "PEN_AEP_UPDATE",
+        "PEN_AEP_FACT"
+      ]
+    },
+    {
+      "title": "Reasonable cause requires a complete record",
+      "text": "An illness, lost record, or disaster label is not an automatic grant. Connect the event to the particular failure, the care exercised, and the effort to correct the failure.",
+      "source_ids": [
+        "PEN_RC_PUBLIC",
+        "PEN_RC_REG"
+      ]
+    },
+    {
+      "title": "Keep unknown facts visible",
+      "text": "An unanswered condition produces a review task. A research result is an educational screen, not an agency decision or a calculation of a claim deadline.",
+      "source_ids": [
+        "PEN_FTA_IRM",
+        "AUTH-6662-4"
+      ]
+    }
+  ]
+}

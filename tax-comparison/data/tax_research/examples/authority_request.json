@@ -1,0 +1,38 @@
+{
+  "context": {
+    "purpose": "substantial_authority",
+    "forum": "tax_court",
+    "appellate_circuit": "09",
+    "as_of": "2026-11-22"
+  },
+  "authorities": [
+    {
+      "id": "statutory-source",
+      "kind": "statutory",
+      "status": "current",
+      "issue_match": "direct",
+      "applies_to_period": true,
+      "issued_on": "2020-01-01",
+      "conflicting_authority": false
+    },
+    {
+      "id": "other-taxpayer-ruling",
+      "kind": "plr",
+      "status": "current",
+      "issue_match": "analogous",
+      "applies_to_period": true,
+      "issued_on": "2020-01-01",
+      "same_taxpayer": false,
+      "conflicting_authority": true
+    },
+    {
+      "id": "manual-procedure",
+      "kind": "irm",
+      "status": "current",
+      "issue_match": "direct",
+      "applies_to_period": true,
+      "issued_on": "2024-01-01",
+      "conflicting_authority": false
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "penalty_code": "6656",
+  "return_form": "941",
+  "tax_year": 2026,
+  "original_due_date": "2026-07-31",
+  "received_date": "2026-08-17",
+  "is_original_return": true,
+  "aep_considered": true,
+  "aep_transcript_verified": true,
+  "history": [
+    {
+      "period": "2023-Q2",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2023-Q3",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2023-Q4",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2024-Q1",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2024-Q2",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2024-Q3",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2024-Q4",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2025-Q1",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2025-Q2",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2025-Q3",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2025-Q4",
+      "filing": "timely",
+      "penalty": "none"
+    },
+    {
+      "period": "2026-Q1",
+      "filing": "timely",
+      "penalty": "none"
+    }
+  ],
+  "related_accounts_reviewed": true,
+  "currently_required_returns_filed_or_extended": true,
+  "paid_or_arranged_to_pay": true,
+  "tax_fully_paid": false,
+  "irs_error": false,
+  "penalty_factually_valid": true,
+  "quarter": 2,
+  "deposit_waivers": 0,
+  "electronic_deposit_avoidance": "none"
+}

@@ -1,0 +1,224 @@
+{
+  "schema": "simple_tax_advisor.d32_atlas/1",
+  "author": "LIPAI WANG",
+  "edition": "TY2025 US Individual, Pass-Through, Procedure & Cross-Platform Study Atlas",
+  "links": {
+    "acadifi_labs": "https://acadifi.com/labs",
+    "financecerttax_labs": "https://financecerttax.com/labs",
+    "robotforge_stem_labs": "https://robotforge.org/labs"
+  },
+  "integrated_workflow_benchmark": {
+    "schedule_c": {
+      "net_sales": 44500,
+      "gross_profit": 40500,
+      "net_profit": 29500.0,
+      "depreciation": 2000.0
+    },
+    "schedule_e_k1": {
+      "allowed": 1200,
+      "basis_suspended": 1200,
+      "at_risk_suspended": 1100,
+      "passive_suspended": 1300,
+      "after_basis": 3600,
+      "after_at_risk": 2500
+    },
+    "depreciation": {
+      "periods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "fractions": [
+        0.2,
+        0.32,
+        0.192,
+        0.1152,
+        0.1152,
+        0.0576
+      ],
+      "deductions": [
+        2000.0,
+        3200.0,
+        1920.0,
+        1152.0,
+        1152.0,
+        576.0
+      ],
+      "year_end_basis": [
+        8000.0,
+        4800.0,
+        2880.0,
+        1728.0,
+        576.0,
+        0.0
+      ],
+      "methods": [
+        "200DB",
+        "200DB",
+        "200DB",
+        "SL",
+        "SL",
+        "SL"
+      ],
+      "residual_basis": 0.0
+    },
+    "total_income": 80300.0,
+    "agi": 79100.0,
+    "base_deduction": 15750,
+    "taxable_before_qbi": 63350.0,
+    "qbi": {
+      "deduction": 5800.0,
+      "phase_in": 0,
+      "business_component": 5800.0,
+      "taxable_income_cap": 12670.0,
+      "applicable_percentage": 1.0,
+      "wage_property_limit": 0.0
+    },
+    "taxable_after_qbi": 57550.0,
+    "ordinary_schedule_tax": 7575.0,
+    "ordinary_method": "table_when_ordinary"
+  },
+  "ty2025_workflow_plates": [
+    {
+      "id": "01_base_standard_deductions",
+      "svg": "../assets/d32-b08/01_base_standard_deductions.svg",
+      "title": "Base Standard Deductions"
+    },
+    {
+      "id": "02_form1040_income_waterfall",
+      "svg": "../assets/d32-b08/02_form1040_income_waterfall.svg",
+      "title": "Form1040 Income Waterfall"
+    },
+    {
+      "id": "03_ordinary_average_rate",
+      "svg": "../assets/d32-b08/03_ordinary_average_rate.svg",
+      "title": "Ordinary Average Rate"
+    },
+    {
+      "id": "04_schedule_c_profit_bridge",
+      "svg": "../assets/d32-b08/04_schedule_c_profit_bridge.svg",
+      "title": "Schedule C Profit Bridge"
+    },
+    {
+      "id": "05_partner_loss_limits",
+      "svg": "../assets/d32-b08/05_partner_loss_limits.svg",
+      "title": "Partner Loss Limits"
+    },
+    {
+      "id": "06_qbi_service_phase_in",
+      "svg": "../assets/d32-b08/06_qbi_service_phase_in.svg",
+      "title": "Qbi Service Phase In"
+    },
+    {
+      "id": "07_qbi_wage_basis_sensitivity",
+      "svg": "../assets/d32-b08/07_qbi_wage_basis_sensitivity.svg",
+      "title": "Qbi Wage Basis Sensitivity"
+    },
+    {
+      "id": "08_qbi_taxable_income_cap",
+      "svg": "../assets/d32-b08/08_qbi_taxable_income_cap.svg",
+      "title": "Qbi Taxable Income Cap"
+    },
+    {
+      "id": "09_macrs_convention_timing",
+      "svg": "../assets/d32-b08/09_macrs_convention_timing.svg",
+      "title": "Macrs Convention Timing"
+    },
+    {
+      "id": "10_macrs_residual_basis",
+      "svg": "../assets/d32-b08/10_macrs_residual_basis.svg",
+      "title": "Macrs Residual Basis"
+    },
+    {
+      "id": "11_macrs_q4_threshold",
+      "svg": "../assets/d32-b08/11_macrs_q4_threshold.svg",
+      "title": "Macrs Q4 Threshold"
+    },
+    {
+      "id": "12_integrated_income_components",
+      "svg": "../assets/d32-b08/12_integrated_income_components.svg",
+      "title": "Integrated Income Components"
+    },
+    {
+      "id": "13_integrated_taxable_stages",
+      "svg": "../assets/d32-b08/13_integrated_taxable_stages.svg",
+      "title": "Integrated Taxable Stages"
+    },
+    {
+      "id": "14_integrated_adjustment_sensitivity",
+      "svg": "../assets/d32-b08/14_integrated_adjustment_sensitivity.svg",
+      "title": "Integrated Adjustment Sensitivity"
+    }
+  ],
+  "procedure_plates": [
+    {
+      "id": "01_discrepancy",
+      "svg": "../assets/d32-b09/01_discrepancy.svg",
+      "title": "Discrepancy"
+    },
+    {
+      "id": "02_exam_to_deficiency",
+      "svg": "../assets/d32-b09/02_exam_to_deficiency.svg",
+      "title": "Exam To Deficiency"
+    },
+    {
+      "id": "03_cdp_request",
+      "svg": "../assets/d32-b09/03_cdp_request.svg",
+      "title": "Cdp Request"
+    },
+    {
+      "id": "04_cdp_determination",
+      "svg": "../assets/d32-b09/04_cdp_determination.svg",
+      "title": "Cdp Determination"
+    },
+    {
+      "id": "05_8857_understatement",
+      "svg": "../assets/d32-b09/05_8857_understatement.svg",
+      "title": "8857 Understatement"
+    },
+    {
+      "id": "06_8857_unpaid",
+      "svg": "../assets/d32-b09/06_8857_unpaid.svg",
+      "title": "8857 Unpaid"
+    },
+    {
+      "id": "07_oic_lump_sum",
+      "svg": "../assets/d32-b09/07_oic_lump_sum.svg",
+      "title": "Oic Lump Sum"
+    },
+    {
+      "id": "08_oic_compare_modes",
+      "svg": "../assets/d32-b09/08_oic_compare_modes.svg",
+      "title": "Oic Compare Modes"
+    },
+    {
+      "id": "09_tfrp_amount",
+      "svg": "../assets/d32-b09/09_tfrp_amount.svg",
+      "title": "Tfrp Amount"
+    },
+    {
+      "id": "10_tfrp_role_evidence",
+      "svg": "../assets/d32-b09/10_tfrp_role_evidence.svg",
+      "title": "Tfrp Role Evidence"
+    },
+    {
+      "id": "11_circular_omission",
+      "svg": "../assets/d32-b09/11_circular_omission.svg",
+      "title": "Circular Omission"
+    },
+    {
+      "id": "12_representation_scope",
+      "svg": "../assets/d32-b09/12_representation_scope.svg",
+      "title": "Representation Scope"
+    }
+  ],
+  "statutes_covered": [
+    "IRC Sec. 704(d) outside basis & Sec. 754 optional basis adjustment",
+    "IRC Sec. 465 at-risk & Sec. 469 passive activity gates",
+    "IRC Sec. 199A QBI 20% deduction & W-2/UBIA phase-in",
+    "Treasury Circular 230 Sec. 10.21 omission notice, Sec. 10.22 diligence & Form 2848 vs Form 8821"
+  ]
+}
