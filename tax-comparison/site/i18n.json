@@ -1,0 +1,5 @@
+{
+ "en":{"title":"Simple Tax Advisor","subtitle":"Understand tax systems through transparent comparisons.","disclaimer":"Illustrative data only — not current law, tax advice, or a filing calculation."},
+ "zh-hans":{"title":"简明税务顾问","subtitle":"通过透明比较理解不同税制。","disclaimer":"仅为示例数据，不代表现行法律、税务建议或申报计算。"},
+ "ja":{"title":"シンプル税務アドバイザー","subtitle":"透明性のある比較で税制を理解する。","disclaimer":"例示データです。現行法、税務助言、申告計算を示すものではありません。"}
+}
