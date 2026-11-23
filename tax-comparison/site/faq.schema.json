@@ -1,0 +1,11 @@
+{
+ "@context":"https://schema.org",
+ "@type":"FAQPage",
+ "mainEntity":[
+  {"@type":"Question","name":"Are the tax graphs current statutory rates?","acceptedAnswer":{"@type":"Answer","text":"No. The bundled graphs use synthetic teaching schedules and are not statutory rates."}},
+  {"@type":"Question","name":"Can I use this tool to file a tax return?","acceptedAnswer":{"@type":"Answer","text":"No. It is an educational comparison prototype, not a filing tool or tax advice."}},
+  {"@type":"Question","name":"Why do tax systems differ across countries?","acceptedAnswer":{"@type":"Answer","text":"Tax bases, thresholds, deductions, social contributions, benefits, residency rules and filing periods differ. Comparisons require aligned assumptions."}},
+  {"@type":"Question","name":"What does the tax wedge mean here?","acceptedAnswer":{"@type":"Answer","text":"It is a simplified teaching ratio of modeled tax components net of a modeled offset to gross income. It is not an official OECD or government measure."}},
+  {"@type":"Question","name":"Are translations legal equivalents?","acceptedAnswer":{"@type":"Answer","text":"No. The English, Simplified Chinese and Japanese strings are educational translations and require qualified review before publication."}}
+ ]
+}
